@@ -1,125 +1,254 @@
-## Exercise 4: Report and Drive Adoption
+# Exercise 4: Build Executive Dashboard & Calculate ROI
 
 ### Estimated Duration: 15 Minutes
 
 ## Overview
 
-In this exercise, you will assemble an executive-focused dashboard that unifies adoption (usage) metrics and productivity impact signals. You will introduce adjustable ROI parameters (Seconds Saved, Hourly Rate), surface key KPIs, and prepare a concise leadership readout with actionable recommendations.
+In this exercise, you will create an executive-ready dashboard that combines adoption metrics from Exercise 2 and productivity improvements from Exercise 3 to calculate and present the return on investment (ROI) of GitHub Copilot. You'll build a comprehensive view that executives can use to make data-driven decisions about Copilot expansion and optimization.
 
 ## Objectives
 
 You will be able to complete the following tasks:
 
-- Task 1: Build an executive dashboard (KPIs, trends, cohorts, ROI measures, bookmark)
-- Task 2: Present findings & next steps (summary narrative and recommended actions)
+- Task 1: Create ROI calculation measures using productivity improvements
+- Task 2: Build an executive summary dashboard with key insights
+- Task 3: Publish the dashboard to Power BI Service for sharing
 
 ## Prerequisites
 
-- Completion of Exercises 1–3 (usage CSV ingested, core measures defined).
-- Existing measures: Active Users, Total Acceptances, Acceptance Rate %, Time Saved (hrs) or equivalent, Δ Throughput %, Lead Time Pre (hrs), Lead Time Post (hrs).
-- Dataset tables accessible: `copilot_org`, `pr_post` (or your renamed equivalents).
+- Completion of Exercise 2 (adoption metrics) and Exercise 3 (productivity impact analysis)
+- Understanding of basic ROI calculation concepts
+- Access to Power BI Service (provided in lab environment)
 
-## KPI Glossary
+## Task 1: Create ROI Calculation Measures
 
-- Active Users: Distinct users with any Copilot activity in current filter context.
-- Acceptance Rate %: Total Acceptances ÷ Total Suggestions.
-- Total Acceptances: Count of suggestions accepted by users.
-- Δ Throughput %: Percentage change in throughput (PRs or accepted suggestions) post-adoption vs baseline.
-- Lead Time Post (hrs): Average post-adoption lead time metric (replace with your defined measure if named differently).
-- Estimated Hours Saved: ([Total Acceptances] × [Seconds Saved Value]) ÷ 3600.
-- Estimated Savings: [Estimated Hours Saved] × [Hourly Rate Value].
-- Time Saved (hrs): Heuristic time savings from earlier exercises (optional if using dynamic Estimated Hours Saved).
+In this task, you'll create measures that translate productivity improvements into financial value and calculate the ROI of Copilot investment.
 
-## Task 1: Build an Executive Dashboard
+### A. Time Savings Calculations
 
-In this task, you will curate visuals and create parameter-driven ROI measures for leadership-ready reporting.
+1. Click on (+) at the bottom tab area and select **New page**.
 
-1. Create a new page: click **+** at the bottom → rename to **Executive Dashboard**.  
+1. Rename the page to **Executive Dashboard**.
 
-   ![](../media/co-po-ex4-g1.png)  
+   ![](../media/mang-cor-ex4-g1.png)
+
+
+1. Right-click **pr_baseline** table → **New measure**. Create **Hours Saved per Developer per Month**:
+
+   ```
+   Hours Saved per Dev per Month = 
+   VAR LeadTimeReduction = [Lead Time Improvement]
+   VAR AvgPRsPerMonth = [Post-Copilot PRs Merged] 
+   VAR HoursSaved = LeadTimeReduction * AvgPRsPerMonth
+   RETURN HoursSaved
+   ```
+
+   ![](../media/mang-cor-ex4-g2.png)
+
+1. Right-click **pr_baseline** table → **New measure**. Create **Total Hours Saved Organization**:
+
+   ```
+   Total Hours Saved Organization = 
+   [Hours Saved per Dev per Month] * [Active Users]
+   ```
+
+   ![](../media/mang-cor-ex4-g3.png)
+
+### B. Financial Value Calculations
+
+1. Create **Developer Hourly Rate** parameter for ROI sensitivity analysis:
    
-   ![](../media/co-po-ex4-g2.png)
-   
-1. Add What-If parameters (ROI knobs): **Modeling → New parameter → Numeric range**.
+   Go to **Modeling** → **New parameter** → **Numeric range**:
 
-   - Seconds Saved: Min 5, Max 60, Increment 5, Default 20, Add slicer = On. 
-   
-     ![](../media/co-po-ex4-g3.png)  
-     
-     ![](../media/co-po-ex4-g4.png)
-     
-   - Hourly Rate: Min 20, Max 150, Increment 5, Default 60.  
-   
-     ![](../media/co-po-ex4-g5.png)
-     
-1. Create ROI measures:
-   - `Estimated Hours Saved := DIVIDE ( [Total Acceptances] * [Seconds Saved Value], 3600 )`  
-   
-     ![](../media/co-po-ex4-g6.png)
-     
-   - `Estimated Savings := [Estimated Hours Saved] * [Hourly Rate Value]` 
-   
-     ![](../media/co-po-ex4-g8.png)
-     
-## Task 2: Present Findings & Next Steps
+   ![](../media/co-po-ex4-g3.png)
 
-In this task, you will create a concise executive readout and package shareable artifacts to drive action on adoption and productivity improvements.
+   - Name: Developer Hourly Rate
+   - Minimum: 50
+   - Maximum: 200  
+   - Increment: 10
+   - Default: 75
+   - Add slicer to page: Yes
 
-1. Add ROI cards (row 1): Cards for **Estimated Hours Saved**, **Estimated Savings** (Format Currency), **Total Acceptances**.  
+      ![](../media/mang-cor-ex4-g4.png)
 
-   ![](../media/co-po-ex4-g10.png)
+1. Right-click **pr_baseline** table → **New measure**. Create **Monthly Time Savings Value**:
+
+   ```
+   Monthly Time Savings Value = 
+   [Total Hours Saved Organization] * 'Developer Hourly Rate'[Developer Hourly Rate Value]
+   ```
+
+   ![](../media/mang-cor-ex4-g11.png)
+
+   Format as **Currency** with **0 decimal places**.
+
+   > **Note**: Use the full table reference 'Developer Hourly Rate'[Developer Hourly Rate Value] to ensure proper parameter reference.
+
+1. Right-click **pr_baseline** table → **New measure**. Create **Annual Time Savings Value**:
+
+   ```
+   Annual Time Savings Value = [Monthly Time Savings Value] * 12
+   ```
+
+   ![](../media/mang-cor-ex4-g6.png)
+
+### C. ROI Calculations
+
+1. Create **Annual Copilot Cost** parameter:
    
-1. Lead time KPI: Add Card for **Lead Time Post (hrs)** (or placeholder).  
+   Go to **Modeling** → **New parameter** → **Numeric range**:
 
-   ![](../media/co-po-ex4-g11.png)
-   
-1. Improvement by developer (row 2): Insert **Clustered bar chart**.  
-   - Y-axis: `pr_post[dev]`  
-   - X-axis: `Δ Throughput %` (sort descending).  
-   
-   ![](../media/co-po-ex4-g12.png)
-   
-1. (Optional) Top performer callout: measure `Top Performer (Name) := VAR t = TOPN ( 1, VALUES ( pr_post[dev] ), [Δ Throughput %], DESC ) RETURN CONCATENATEX ( t, pr_post[dev], ", " )` then Card.  
+   ![](../media/mang-cor-ex4-g7.png)
 
-   ![](../media/co-po-ex4-g13.png)
-   
-1. Usage trend (row 3): Line chart with X = `copilot_org[date]`, Y = `Total Suggestions` + `Total Acceptances`.  
+   - Name: Annual Copilot Cost per User
+   - Minimum: 100
+   - Maximum: 500
+   - Increment: 20
+   - Default: 228 (GitHub Copilot Business annual cost)
+   - Add slicer to page: Yes
 
-   ![](../media/co-po-ex4-g14.png)
-1. Slicers (left column): add slicers for `editor_primary`, `language_primary`, `pr_post[team]` (Style = Tile).
+      ![](../media/mang-cor-ex4-g12.png)
 
-1. Format & align: Display units = None (cards); percentage KPIs Decimal = 1; page size 16:9, clean layout.
+   > **Important**: After creating the parameter, you should see "Annual Copilot Cost per User Value" appear in your Data pane under the parameter section.
 
-### Task: Publish the Power BI report to the Power BI Service
+1. Right-click **pr_baseline** table → **New measure**. Create **Total Annual Copilot Investment**:
 
-1. In **Power BI Desktop**, select **File** from the top-left menu.  
+   ```
+   Total Annual Copilot Investment = 
+   [Active Users] * 'Annual Copilot Cost per User'[Annual Copilot Cost per User Value]
+   ```
+
+   ![](../media/mang-cor-ex4-g10.png)
+
+   > **Note**: Use the full table reference 'Annual Copilot Cost per User'[Annual Copilot Cost per User Value] to ensure proper parameter reference.
+
+1. Right-click **pr_baseline** table → **New measure**. Create **Copilot ROI %**:
+
+   ```
+   Copilot ROI % = DIVIDE(
+       [Annual Time Savings Value] - [Total Annual Copilot Investment],
+       [Total Annual Copilot Investment],
+       0
+   )
+   ```
+
+   ![](../media/mang-cor-ex4-g14.png)
+
+   Format as **Percentage** with **0 decimal places**.
+
+1. Right-click **pr_baseline** table → **New measure**. Create **ROI Payback Period (months)**:
+
+   ```
+   ROI Payback Period (months) = DIVIDE(
+       [Total Annual Copilot Investment],
+       [Monthly Time Savings Value],
+       0
+   )
+   ```
+
+   ![](../media/mang-cor-ex4-g15.png)
+
+   Format as **Decimal number** with **1 decimal place**.
+
+1. **Verify Parameter Creation**: In the **Data** pane, you should see both parameters:
+   - **Developer Hourly Rate** with "Developer Hourly Rate Value" underneath
+   - **Annual Copilot Cost per User** with "Annual Copilot Cost per User Value" underneath
+
+      ![](../media/mang-cor-ex4-g16.png)
+
+      ![](../media/mang-cor-ex4-g17.png)
+
+## Task 2: Build Executive Dashboard
+
+In this task, you'll create a comprehensive executive dashboard that tells the complete Copilot story from adoption to ROI.
+
+1. Insert **Card** visuals for the most important executive metrics:
+
+   ![](../media/mang-cor-ex4-g19.png)
+
+   - **Copilot ROI %** (make this prominent with large font)
+
+      ![](../media/mang-cor-ex4-g20.png)
+
+   - **ROI Payback Period (months)**
+   - **Annual Time Savings Value**
+   - **Active Users**
+
+      ![](../media/mang-cor-ex4-g21.png)
+
+   > **Executive Value**: These 5 cards immediately communicate the business case for Copilot in terms executives understand.
+
+### C. Create Adoption vs Impact Matrix
+
+1. Insert a **Scatter chart** to show the relationship between adoption and productivity:
+
+   ![](../media/mang-cor-ex4-g22.png)
+
+   - **X-axis**: Active Users (from copilot_org, by team)
+   - **Y-axis**: Lead Time Improvement % (from Exercise 3)
+   - **Size**: Annual Time Savings Value (by team)
+   - **Legend**: team
+
+      ![](../media/mang-cor-ex4-g23.png)
+
+   > **Executive Insight**: This shows which teams are both adopting Copilot well AND seeing productivity benefits, identifying success stories to replicate.
+
+### D. Add Productivity Improvement Summary
+
+1. Insert a **Clustered column chart** showing key improvements:
+
+   - **X-axis**: Custom values ("Lead Time", "Cycle Time", "Throughput")
+   - **Y-axis**: Improvement percentages
+
+   ![](../media/mang-cor-ex4-g24.png)
+
+1. Interact and review the dashabord.
+
+   ![](../media/mang-cor-ex4-g25.png)
+
+## Task 3: Publish to Power BI Service
+
+In this task, you'll publish the dashboard to Power BI Service so it can be shared with executives and stakeholders.
+
+1. In **Power BI Desktop**, select **File** → **Publish** → **Publish to Power BI**.
 
    ![](../media/gt-co-ex1-g8.png)
 
-1. In the left pane, select **Publish (1)**, then on the right choose **Publish to Power BI (2)**. 
-
-   ![](../media/gt-co-ex1-g9.png)
-
-1. When prompted **Do you want to save your changes?**, select **Save**.  
-
-   ![](../media/gt-co-ex1-g10.png)
-
-1. In **Save this file**, confirm the name (e.g., `Copilot_PowerBI.pbix`) and select **Save**.  
-
-   ![](../media/gt-co-ex1-g11.png)
-
-1. In **Publish to Power BI**, choose **My workspace (1)** and select **Select (2)**. 
+1. Choose **My workspace** and click **Select**.
 
    ![](../media/gt-co-ex1-g12.png)
 
-1. After publishing succeeds, select **Got it**. (You can use the link to open the report in Power BI.)  
+1. When prompted to save changes, click **Save** and provide a meaningful filename like:
+   `GitHub_Copilot_Executive_Dashboard.pbix`
+
+   ![](../media/gt-co-ex1-g11.png)
+
+1. After successful publish, click **Got it** to complete the process.
 
    ![](../media/gt-co-ex1-g13.png)
 
+
+## Notes
+
+- **ROI focuses on time savings** - the primary quantifiable benefit of Copilot for development teams
+- **Use parameters** to make the dashboard adaptable to different organizations and scenarios
+- **Separate technical details** from executive summary - executives need the "so what" not the "how"
+- **Include payback period** - executives want to know when they'll see returns
+- **Show team-level results** - helps identify where additional training or support might be needed
+- **Consider additional benefits** like improved code quality, reduced bugs, and developer satisfaction in narrative
+
+<validation step="ex4-validate-executive-dashboard" />
+
+> **Validation Instructions**
+> - Click the Validate button for this exercise in the lab environment UI.
+> - Confirm ROI calculations show reasonable results and parameters work correctly
+> - Verify the dashboard publishes successfully to Power BI Service
+> - Check that all measures calculate without errors
+> - If validation fails, verify that all prerequisite measures from Exercises 2-3 are available
+> - For assistance email: cloudlabs-support@spektrasystems.com.
+
 ## Summary
 
-In this exercise, you built a leadership-ready Copilot adoption and ROI dashboard, added dynamic parameters for scenario modeling, and prepared an actionable executive readout. These assets enable data-driven prioritization of enablement and productivity initiatives.
+In this exercise, you created a comprehensive executive dashboard that transforms Copilot usage data into clear business value metrics. You calculated ROI based on productivity improvements, created scenario analysis capabilities, and published the results to Power BI Service. This dashboard provides executives with the data-driven insights needed to make informed decisions about Copilot expansion and optimization across the organization.
 
-### You have successfully completed this exercise. Thank you for advancing through the lab series >>
-
-
+### Congratulations! You have successfully completed the GitHub Copilot for Managers lab series. You now have the skills to measure, analyze, and communicate the business value of GitHub Copilot in your organization.
