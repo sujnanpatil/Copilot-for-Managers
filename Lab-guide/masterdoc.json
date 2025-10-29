@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "github_copilot_for_managers",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/github_copilot_for_managers/refs/heads/main/Lab-guide/Getting-Started.md",
+        "Order": 1
+      },
+            {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/github_copilot_for_managers/refs/heads/main/Lab-guide/Ex1.md",
+        "Order": 2
+      },
+            {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/github_copilot_for_managers/refs/heads/main/Lab-guide/Ex2.md",
+        "Order": 3
+      },
+            {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/github_copilot_for_managers/refs/heads/main/Lab-guide/Ex3.md",
+        "Order": 4
+      },
+            {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/github_copilot_for_managers/refs/heads/main/Lab-guide/Ex4.md",
+        "Order": 5
+      }    
+    ]
+  }
+]
