@@ -1,0 +1,1001 @@
+date,week_start,user_login,email,team,role,editor_primary,language_primary,suggestions,acceptances,acceptance_rate_pct,ide_chat_interactions,dotcom_chat_interactions,last_activity_at,last_activity_bucket,repository,model,pr_summaries_created
+2025-08-25,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,82,31,37.8,0,0,2025-10-10,0-7,mobile/app,a-custom-model,0
+2025-08-25,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,155,111,71.61,0,3,2025-09-24,0-7,payments/api,default,1
+2025-08-25,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,79,50,63.29,0,1,2025-09-22,0-7,mobile/app,default,0
+2025-08-25,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,169,93,55.03,0,3,2025-10-11,0-7,demo/repo2,a-custom-model,0
+2025-08-25,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,165,76,46.06,0,3,2025-09-22,0-7,payments/api,default,0
+2025-08-25,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,98,39,39.8,0,2,2025-10-12,0-7,payments/api,default,0
+2025-08-25,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,131,73,55.73,0,2,2025-09-19,0-7,payments/api,default,1
+2025-08-25,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,75,37,49.33,0,1,2025-10-08,0-7,mobile/app,default,0
+2025-08-25,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,171,110,64.33,0,3,2025-10-01,0-7,mobile/app,default,1
+2025-08-25,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,154,101,65.58,0,2,2025-09-16,0-7,mobile/app,default,0
+2025-08-25,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,118,72,61.02,0,2,2025-10-10,0-7,mobile/app,default,1
+2025-08-25,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,136,94,69.12,0,2,2025-09-17,0-7,mobile/app,default,1
+2025-08-25,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,96,45,46.88,0,2,2025-09-16,0-7,demo/repo2,default,0
+2025-08-25,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,107,65,60.75,0,2,2025-10-12,0-7,payments/api,default,0
+2025-08-25,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,123,66,53.66,0,2,2025-09-13,0-7,mobile/app,a-custom-model,0
+2025-08-25,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,140,85,60.71,0,2,2025-10-07,0-7,demo/repo1,a-custom-model,1
+2025-08-25,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,99,67,67.68,0,2,2025-09-13,0-7,demo/repo1,default,1
+2025-08-25,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,129,71,55.04,0,2,2025-10-09,0-7,mobile/app,default,0
+2025-08-25,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,99,64,64.65,0,2,2025-10-13,0-7,payments/api,a-custom-model,0
+2025-08-25,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,139,95,68.35,0,2,2025-09-20,0-7,payments/api,default,1
+2025-08-26,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,145,59,40.69,0,0,2025-10-10,0-7,payments/api,default,1
+2025-08-26,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,271,197,72.69,0,3,2025-09-24,0-7,demo/repo2,default,2
+2025-08-26,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,137,90,65.69,0,1,2025-09-22,0-7,demo/repo1,default,1
+2025-08-26,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,294,166,56.46,0,3,2025-10-11,0-7,payments/api,default,2
+2025-08-26,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,286,136,47.55,0,3,2025-09-22,0-7,mobile/app,default,1
+2025-08-26,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,170,72,42.35,0,2,2025-10-12,0-7,demo/repo1,a-custom-model,0
+2025-08-26,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,227,130,57.27,0,2,2025-09-19,0-7,demo/repo2,a-custom-model,1
+2025-08-26,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,130,68,52.31,0,1,2025-10-08,0-7,demo/repo1,a-custom-model,0
+2025-08-26,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,296,194,65.54,0,3,2025-10-01,0-7,payments/api,default,1
+2025-08-26,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,267,178,66.67,0,3,2025-09-16,0-7,demo/repo1,a-custom-model,2
+2025-08-26,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,205,130,63.41,0,2,2025-10-10,0-7,payments/api,default,1
+2025-08-26,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,237,168,70.89,0,2,2025-09-17,0-7,demo/repo2,default,0
+2025-08-26,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,166,81,48.8,0,2,2025-09-16,0-7,demo/repo1,default,0
+2025-08-26,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,185,116,62.7,0,2,2025-10-12,0-7,demo/repo2,default,1
+2025-08-26,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,214,119,55.61,0,2,2025-09-13,0-7,demo/repo2,a-custom-model,1
+2025-08-26,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,243,151,62.14,0,2,2025-10-07,0-7,demo/repo1,default,1
+2025-08-26,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,173,121,69.94,0,2,2025-09-13,0-7,demo/repo2,default,1
+2025-08-26,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,223,126,56.5,0,2,2025-10-09,0-7,mobile/app,a-custom-model,0
+2025-08-26,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,171,114,66.67,0,2,2025-10-13,0-7,mobile/app,default,0
+2025-08-26,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,242,169,69.83,0,2,2025-09-20,0-7,payments/api,default,1
+2025-08-27,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,150,71,47.33,0,1,2025-10-10,0-7,demo/repo1,default,0
+2025-08-27,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,282,215,76.24,0,3,2025-09-24,0-7,demo/repo2,default,1
+2025-08-27,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,143,105,73.43,0,2,2025-09-22,0-7,mobile/app,default,1
+2025-08-27,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,306,183,59.8,0,4,2025-10-11,0-7,demo/repo1,default,0
+2025-08-27,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,297,152,51.18,0,3,2025-09-22,0-7,payments/api,default,1
+2025-08-27,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,177,85,48.02,0,2,2025-10-12,0-7,mobile/app,default,1
+2025-08-27,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,236,145,61.44,0,3,2025-09-19,0-7,demo/repo1,a-custom-model,1
+2025-08-27,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,135,80,59.26,0,2,2025-10-08,0-7,payments/api,default,0
+2025-08-27,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,308,212,68.83,0,4,2025-10-01,0-7,demo/repo1,default,1
+2025-08-27,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,278,196,70.5,0,3,2025-09-16,0-7,demo/repo2,default,0
+2025-08-27,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,213,145,68.08,0,2,2025-10-10,0-7,payments/api,default,0
+2025-08-27,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,246,184,74.8,0,3,2025-09-17,0-7,mobile/app,default,1
+2025-08-27,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,173,95,54.91,0,2,2025-09-16,0-7,payments/api,default,1
+2025-08-27,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,193,131,67.88,0,2,2025-10-12,0-7,demo/repo2,default,1
+2025-08-27,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,223,134,60.09,0,3,2025-09-13,0-7,payments/api,default,1
+2025-08-27,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,253,167,66.01,0,3,2025-10-07,0-7,demo/repo2,default,1
+2025-08-27,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,179,135,75.42,0,2,2025-09-13,0-7,demo/repo2,default,1
+2025-08-27,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,232,141,60.78,0,3,2025-10-09,0-7,payments/api,default,1
+2025-08-27,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,178,129,72.47,0,2,2025-10-13,0-7,mobile/app,a-custom-model,0
+2025-08-27,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,251,186,74.1,0,3,2025-09-20,0-7,demo/repo1,a-custom-model,1
+2025-08-28,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,201,93,46.27,0,4,2025-10-10,0-7,mobile/app,default,0
+2025-08-28,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,378,286,75.66,0,6,2025-09-24,0-7,demo/repo2,default,2
+2025-08-28,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,191,137,71.73,0,2,2025-09-22,0-7,mobile/app,default,1
+2025-08-28,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,409,242,59.17,0,5,2025-10-11,0-7,mobile/app,a-custom-model,1
+2025-08-28,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,397,201,50.63,0,5,2025-09-22,0-7,payments/api,default,1
+2025-08-28,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,236,111,47.03,0,3,2025-10-12,0-7,mobile/app,a-custom-model,0
+2025-08-28,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,316,193,61.08,0,4,2025-09-19,0-7,mobile/app,default,1
+2025-08-28,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,180,105,58.33,0,2,2025-10-08,0-7,demo/repo2,a-custom-model,0
+2025-08-28,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,412,282,68.45,0,5,2025-10-01,0-7,demo/repo1,default,3
+2025-08-28,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,371,258,69.54,0,5,2025-09-16,0-7,payments/api,default,2
+2025-08-28,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,284,191,67.25,0,4,2025-10-10,0-7,mobile/app,default,1
+2025-08-28,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,329,244,74.16,0,4,2025-09-17,0-7,mobile/app,default,1
+2025-08-28,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,231,124,53.68,0,3,2025-09-16,0-7,demo/repo1,default,1
+2025-08-28,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,257,172,66.93,0,3,2025-10-12,0-7,demo/repo1,default,0
+2025-08-28,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,298,176,59.06,0,4,2025-09-13,0-7,payments/api,default,1
+2025-08-28,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,338,221,65.38,0,4,2025-10-07,0-7,demo/repo2,default,1
+2025-08-28,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,240,178,74.17,0,3,2025-09-13,0-7,payments/api,default,0
+2025-08-28,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,310,187,60.32,0,4,2025-10-09,0-7,payments/api,default,1
+2025-08-28,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,238,169,71.01,0,3,2025-10-13,0-7,mobile/app,default,2
+2025-08-28,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,336,246,73.21,0,4,2025-09-20,0-7,demo/repo2,default,1
+2025-08-29,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,156,64,41.03,0,1,2025-10-10,0-7,payments/api,default,1
+2025-08-29,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,292,213,72.95,0,3,2025-09-24,0-7,payments/api,a-custom-model,1
+2025-08-29,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,148,98,66.22,0,2,2025-09-22,0-7,demo/repo2,a-custom-model,1
+2025-08-29,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,317,179,56.47,0,4,2025-10-11,0-7,mobile/app,default,1
+2025-08-29,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,308,147,47.73,0,3,2025-09-22,0-7,payments/api,default,1
+2025-08-29,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,183,77,42.08,0,2,2025-10-12,0-7,mobile/app,default,1
+2025-08-29,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,245,141,57.55,0,3,2025-09-19,0-7,mobile/app,default,1
+2025-08-29,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,140,73,52.14,0,2,2025-10-08,0-7,demo/repo2,a-custom-model,1
+2025-08-29,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,319,210,65.83,0,4,2025-10-01,0-7,demo/repo2,default,1
+2025-08-29,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,288,193,67.01,0,3,2025-09-16,0-7,payments/api,default,1
+2025-08-29,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,220,139,63.18,0,2,2025-10-10,0-7,mobile/app,default,1
+2025-08-29,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,255,181,70.98,0,3,2025-09-17,0-7,demo/repo1,default,1
+2025-08-29,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,179,88,49.16,0,2,2025-09-16,0-7,demo/repo1,a-custom-model,1
+2025-08-29,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,200,125,62.5,0,2,2025-10-12,0-7,mobile/app,default,1
+2025-08-29,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,231,128,55.41,0,3,2025-09-13,0-7,demo/repo2,default,1
+2025-08-29,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,262,163,62.21,0,3,2025-10-07,0-7,payments/api,a-custom-model,1
+2025-08-29,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,186,130,69.89,0,2,2025-09-13,0-7,mobile/app,a-custom-model,1
+2025-08-29,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,241,136,56.43,0,3,2025-10-09,0-7,payments/api,a-custom-model,0
+2025-08-29,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,185,124,67.03,0,2,2025-10-13,0-7,demo/repo2,default,1
+2025-08-29,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,260,182,70.0,0,3,2025-09-20,0-7,demo/repo2,default,2
+2025-08-30,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,59,21,35.59,0,1,2025-10-10,0-7,demo/repo1,default,0
+2025-08-30,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,109,76,69.72,0,2,2025-09-24,0-7,demo/repo2,default,1
+2025-08-30,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,55,33,60.0,0,1,2025-09-22,0-7,mobile/app,a-custom-model,0
+2025-08-30,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,119,64,53.78,0,2,2025-10-11,0-7,payments/api,default,1
+2025-08-30,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,115,52,45.22,0,2,2025-09-22,0-7,demo/repo2,default,0
+2025-08-30,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,69,26,37.68,0,1,2025-10-12,0-7,payments/api,a-custom-model,0
+2025-08-30,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,92,50,54.35,0,1,2025-09-19,0-7,payments/api,default,0
+2025-08-30,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,52,24,46.15,0,1,2025-10-08,0-7,demo/repo2,default,0
+2025-08-30,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,119,75,63.03,0,2,2025-10-01,0-7,demo/repo2,default,1
+2025-08-30,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,108,69,63.89,0,2,2025-09-16,0-7,mobile/app,default,0
+2025-08-30,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,82,49,59.76,0,1,2025-10-10,0-7,payments/api,a-custom-model,0
+2025-08-30,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,95,64,67.37,0,2,2025-09-17,0-7,demo/repo1,default,0
+2025-08-30,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,67,30,44.78,0,1,2025-09-16,0-7,mobile/app,default,0
+2025-08-30,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,75,44,58.67,0,1,2025-10-12,0-7,mobile/app,default,0
+2025-08-30,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,86,45,52.33,0,1,2025-09-13,0-7,demo/repo2,default,0
+2025-08-30,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,98,58,59.18,0,2,2025-10-07,0-7,mobile/app,default,0
+2025-08-30,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,69,45,65.22,0,1,2025-09-13,0-7,demo/repo1,default,0
+2025-08-30,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,90,48,53.33,0,1,2025-10-09,0-7,mobile/app,default,0
+2025-08-30,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,69,43,62.32,0,1,2025-10-13,0-7,mobile/app,default,0
+2025-08-30,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,97,65,67.01,0,2,2025-09-20,0-7,mobile/app,default,0
+2025-08-31,2025-08-25,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,59,25,42.37,0,1,2025-10-10,0-7,demo/repo2,default,0
+2025-08-31,2025-08-25,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,113,82,72.57,0,2,2025-09-24,0-7,payments/api,default,1
+2025-08-31,2025-08-25,dev03,dev03@example.com,growth,SDE2,vscode,python,58,39,67.24,0,1,2025-09-22,0-7,demo/repo2,a-custom-model,0
+2025-08-31,2025-08-25,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,124,70,56.45,0,2,2025-10-11,0-7,demo/repo1,default,0
+2025-08-31,2025-08-25,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,120,57,47.5,0,1,2025-09-22,0-7,demo/repo1,default,0
+2025-08-31,2025-08-25,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,72,31,43.06,0,0,2025-10-12,0-7,payments/api,default,0
+2025-08-31,2025-08-25,dev07,dev07@example.com,mobile,SDE1,vscode,python,96,56,58.33,0,0,2025-09-19,0-7,demo/repo1,default,0
+2025-08-31,2025-08-25,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,55,30,54.55,0,0,2025-10-08,0-7,payments/api,a-custom-model,0
+2025-08-31,2025-08-25,dev09,dev09@example.com,growth,SDE1,vscode,typescript,125,82,65.6,0,1,2025-10-01,0-7,mobile/app,default,1
+2025-08-31,2025-08-25,dev10,dev10@example.com,growth,SDE1,vscode,go,112,75,66.96,0,0,2025-09-16,0-7,demo/repo2,default,0
+2025-08-31,2025-08-25,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,86,55,63.95,0,0,2025-10-10,0-7,demo/repo2,default,0
+2025-08-31,2025-08-25,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,100,71,71.0,0,0,2025-09-17,0-7,demo/repo1,a-custom-model,1
+2025-08-31,2025-08-25,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,70,35,50.0,0,0,2025-09-16,0-7,payments/api,a-custom-model,0
+2025-08-31,2025-08-25,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,78,50,64.1,0,0,2025-10-12,0-7,demo/repo2,default,0
+2025-08-31,2025-08-25,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,90,51,56.67,0,0,2025-09-13,0-7,mobile/app,a-custom-model,0
+2025-08-31,2025-08-25,dev16,dev16@example.com,mobile,SDE1,vscode,python,102,63,61.76,0,0,2025-10-07,0-7,mobile/app,default,0
+2025-08-31,2025-08-25,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,73,52,71.23,0,0,2025-09-13,0-7,demo/repo1,a-custom-model,0
+2025-08-31,2025-08-25,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,94,54,57.45,0,0,2025-10-09,0-7,mobile/app,default,0
+2025-08-31,2025-08-25,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,72,49,68.06,0,0,2025-10-13,0-7,demo/repo1,default,0
+2025-08-31,2025-08-25,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,102,71,69.61,0,0,2025-09-20,0-7,mobile/app,default,0
+2025-09-01,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,197,82,41.62,0,1,2025-10-10,0-7,payments/api,default,0
+2025-09-01,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,371,272,73.32,0,2,2025-09-24,0-7,demo/repo2,default,1
+2025-09-01,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,188,126,67.02,0,1,2025-09-22,0-7,demo/repo1,default,1
+2025-09-01,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,403,229,56.82,0,2,2025-10-11,0-7,demo/repo1,default,1
+2025-09-01,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,391,188,48.08,0,1,2025-09-22,0-7,mobile/app,default,2
+2025-09-01,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,233,100,42.92,0,0,2025-10-12,0-7,demo/repo1,default,1
+2025-09-01,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,311,180,57.88,0,0,2025-09-19,0-7,demo/repo1,default,1
+2025-09-01,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,177,94,53.11,0,0,2025-10-08,0-7,demo/repo2,default,1
+2025-09-01,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,405,267,65.93,0,1,2025-10-01,0-7,demo/repo2,a-custom-model,0
+2025-09-01,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,365,245,67.12,0,0,2025-09-16,0-7,mobile/app,default,2
+2025-09-01,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,280,179,63.93,0,0,2025-10-10,0-7,demo/repo1,default,1
+2025-09-01,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,324,231,71.3,0,0,2025-09-17,0-7,payments/api,default,0
+2025-09-01,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,227,113,49.78,0,0,2025-09-16,0-7,demo/repo2,a-custom-model,1
+2025-09-01,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,253,160,63.24,0,0,2025-10-12,0-7,demo/repo1,default,0
+2025-09-01,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,293,164,55.97,0,0,2025-09-13,0-7,payments/api,default,1
+2025-09-01,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,333,208,62.46,0,0,2025-10-07,0-7,mobile/app,default,0
+2025-09-01,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,236,166,70.34,0,0,2025-09-13,0-7,mobile/app,default,0
+2025-09-01,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,305,174,57.05,0,0,2025-10-09,0-7,payments/api,default,1
+2025-09-01,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,234,158,67.52,0,0,2025-10-13,0-7,demo/repo1,default,0
+2025-09-01,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,331,233,70.39,0,0,2025-09-20,0-7,payments/api,default,0
+2025-09-02,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,150,67,44.67,0,0,2025-10-10,0-7,demo/repo1,default,0
+2025-09-02,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,281,210,74.73,0,3,2025-09-24,0-7,payments/api,default,1
+2025-09-02,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,142,99,69.72,0,1,2025-09-22,0-7,demo/repo1,default,1
+2025-09-02,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,305,178,58.36,0,3,2025-10-11,0-7,mobile/app,default,2
+2025-09-02,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,297,148,49.83,0,3,2025-09-22,0-7,mobile/app,a-custom-model,0
+2025-09-02,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,176,80,45.45,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-09-02,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,236,141,59.75,0,2,2025-09-19,0-7,mobile/app,default,1
+2025-09-02,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,134,76,56.72,0,1,2025-10-08,0-7,mobile/app,default,0
+2025-09-02,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,307,208,67.75,0,3,2025-10-01,0-7,mobile/app,default,1
+2025-09-02,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,277,191,68.95,0,2,2025-09-16,0-7,payments/api,default,1
+2025-09-02,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,212,140,66.04,0,2,2025-10-10,0-7,payments/api,default,0
+2025-09-02,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,246,180,73.17,0,2,2025-09-17,0-7,demo/repo2,default,1
+2025-09-02,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,172,91,52.91,0,2,2025-09-16,0-7,mobile/app,default,0
+2025-09-02,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,192,126,65.62,0,2,2025-10-12,0-7,demo/repo1,a-custom-model,1
+2025-09-02,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,222,129,58.11,0,2,2025-09-13,0-7,demo/repo1,default,0
+2025-09-02,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,252,163,64.68,0,2,2025-10-07,0-7,payments/api,default,1
+2025-09-02,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,179,130,72.63,0,2,2025-09-13,0-7,mobile/app,default,1
+2025-09-02,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,232,137,59.05,0,2,2025-10-09,0-7,payments/api,default,1
+2025-09-02,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,178,125,70.22,0,2,2025-10-13,0-7,mobile/app,default,1
+2025-09-02,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,251,182,72.51,0,2,2025-09-20,0-7,mobile/app,default,0
+2025-09-03,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,71,27,38.03,0,1,2025-10-10,0-7,payments/api,default,0
+2025-09-03,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,133,94,70.68,0,1,2025-09-24,0-7,payments/api,default,1
+2025-09-03,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,67,43,64.18,0,1,2025-09-22,0-7,payments/api,default,0
+2025-09-03,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,144,80,55.56,0,2,2025-10-11,0-7,mobile/app,default,0
+2025-09-03,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,140,65,46.43,0,1,2025-09-22,0-7,demo/repo2,default,0
+2025-09-03,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,83,33,39.76,0,1,2025-10-12,0-7,demo/repo2,default,0
+2025-09-03,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,111,62,55.86,0,1,2025-09-19,0-7,demo/repo2,default,0
+2025-09-03,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,64,32,50.0,0,1,2025-10-08,0-7,payments/api,default,0
+2025-09-03,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,145,93,64.14,0,2,2025-10-01,0-7,payments/api,default,1
+2025-09-03,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,131,85,64.89,0,1,2025-09-16,0-7,payments/api,a-custom-model,0
+2025-09-03,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,100,62,62.0,0,1,2025-10-10,0-7,demo/repo2,default,0
+2025-09-03,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,116,80,68.97,0,1,2025-09-17,0-7,demo/repo2,default,0
+2025-09-03,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,82,39,47.56,0,1,2025-09-16,0-7,payments/api,default,0
+2025-09-03,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,91,55,60.44,0,1,2025-10-12,0-7,mobile/app,a-custom-model,0
+2025-09-03,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,105,57,54.29,0,1,2025-09-13,0-7,demo/repo1,default,0
+2025-09-03,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,119,72,60.5,0,1,2025-10-07,0-7,demo/repo2,default,0
+2025-09-03,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,85,58,68.24,0,1,2025-09-13,0-7,demo/repo1,default,1
+2025-09-03,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,110,61,55.45,0,1,2025-10-09,0-7,payments/api,default,0
+2025-09-03,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,84,54,64.29,0,1,2025-10-13,0-7,mobile/app,default,0
+2025-09-03,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,119,81,68.07,0,1,2025-09-20,0-7,demo/repo2,default,1
+2025-09-04,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,122,59,48.36,0,2,2025-10-10,0-7,mobile/app,default,1
+2025-09-04,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,230,176,76.52,0,3,2025-09-24,0-7,demo/repo1,default,0
+2025-09-04,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,117,86,73.5,0,2,2025-09-22,0-7,demo/repo2,default,0
+2025-09-04,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,250,150,60.0,0,2,2025-10-11,0-7,demo/repo1,a-custom-model,0
+2025-09-04,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,243,125,51.44,0,2,2025-09-22,0-7,demo/repo2,default,1
+2025-09-04,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,144,70,48.61,0,1,2025-10-12,0-7,mobile/app,default,1
+2025-09-04,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,193,120,62.18,0,2,2025-09-19,0-7,payments/api,default,0
+2025-09-04,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,110,66,60.0,0,1,2025-10-08,0-7,demo/repo1,default,0
+2025-09-04,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,251,174,69.32,0,2,2025-10-01,0-7,mobile/app,default,2
+2025-09-04,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,227,161,70.93,0,2,2025-09-16,0-7,mobile/app,default,1
+2025-09-04,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,174,119,68.39,0,2,2025-10-10,0-7,demo/repo2,default,1
+2025-09-04,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,201,151,75.12,0,2,2025-09-17,0-7,demo/repo1,a-custom-model,1
+2025-09-04,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,141,78,55.32,0,1,2025-09-16,0-7,payments/api,default,0
+2025-09-04,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,157,107,68.15,0,2,2025-10-12,0-7,demo/repo1,default,1
+2025-09-04,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,182,110,60.44,0,2,2025-09-13,0-7,payments/api,default,1
+2025-09-04,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,206,137,66.5,0,2,2025-10-07,0-7,demo/repo1,default,0
+2025-09-04,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,146,111,76.03,0,1,2025-09-13,0-7,mobile/app,default,1
+2025-09-04,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,189,116,61.38,0,2,2025-10-09,0-7,mobile/app,default,1
+2025-09-04,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,145,106,73.1,0,1,2025-10-13,0-7,demo/repo2,default,1
+2025-09-04,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,205,153,74.63,0,2,2025-09-20,0-7,demo/repo1,default,1
+2025-09-05,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,142,58,40.85,0,2,2025-10-10,0-7,payments/api,default,0
+2025-09-05,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,267,194,72.66,0,3,2025-09-24,0-7,demo/repo1,default,2
+2025-09-05,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,136,90,66.18,0,1,2025-09-22,0-7,demo/repo2,a-custom-model,1
+2025-09-05,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,289,163,56.4,0,2,2025-10-11,0-7,demo/repo1,default,1
+2025-09-05,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,281,134,47.69,0,2,2025-09-22,0-7,demo/repo2,default,0
+2025-09-05,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,167,70,41.92,0,1,2025-10-12,0-7,demo/repo1,default,0
+2025-09-05,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,223,128,57.4,0,2,2025-09-19,0-7,payments/api,default,1
+2025-09-05,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,127,66,51.97,0,1,2025-10-08,0-7,mobile/app,a-custom-model,1
+2025-09-05,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,291,191,65.64,0,2,2025-10-01,0-7,mobile/app,default,2
+2025-09-05,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,262,175,66.79,0,2,2025-09-16,0-7,demo/repo2,default,0
+2025-09-05,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,201,127,63.18,0,2,2025-10-10,0-7,payments/api,default,1
+2025-09-05,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,233,165,70.82,0,2,2025-09-17,0-7,demo/repo1,default,1
+2025-09-05,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,163,80,49.08,0,1,2025-09-16,0-7,demo/repo1,a-custom-model,1
+2025-09-05,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,182,114,62.64,0,2,2025-10-12,0-7,demo/repo1,default,1
+2025-09-05,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,210,116,55.24,0,2,2025-09-13,0-7,demo/repo2,a-custom-model,1
+2025-09-05,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,239,148,61.92,0,2,2025-10-07,0-7,demo/repo2,a-custom-model,0
+2025-09-05,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,169,118,69.82,0,1,2025-09-13,0-7,demo/repo1,default,0
+2025-09-05,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,219,124,56.62,0,2,2025-10-09,0-7,mobile/app,a-custom-model,1
+2025-09-05,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,168,112,66.67,0,1,2025-10-13,0-7,demo/repo1,default,0
+2025-09-05,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,237,166,70.04,0,2,2025-09-20,0-7,demo/repo1,default,2
+2025-09-06,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,128,51,39.84,0,0,2025-10-10,0-7,demo/repo1,default,0
+2025-09-06,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,242,175,72.31,0,2,2025-09-24,0-7,demo/repo1,default,1
+2025-09-06,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,122,80,65.57,0,1,2025-09-22,0-7,demo/repo2,default,1
+2025-09-06,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,262,147,56.11,0,2,2025-10-11,0-7,payments/api,default,1
+2025-09-06,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,255,121,47.45,0,2,2025-09-22,0-7,mobile/app,default,0
+2025-09-06,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,152,63,41.45,0,1,2025-10-12,0-7,mobile/app,default,0
+2025-09-06,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,202,115,56.93,0,2,2025-09-19,0-7,payments/api,default,1
+2025-09-06,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,115,59,51.3,0,1,2025-10-08,0-7,payments/api,default,1
+2025-09-06,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,264,173,65.53,0,2,2025-10-01,0-7,payments/api,default,2
+2025-09-06,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,238,158,66.39,0,2,2025-09-16,0-7,payments/api,a-custom-model,0
+2025-09-06,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,182,115,63.19,0,1,2025-10-10,0-7,demo/repo1,default,1
+2025-09-06,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,211,149,70.62,0,2,2025-09-17,0-7,mobile/app,default,1
+2025-09-06,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,148,72,48.65,0,1,2025-09-16,0-7,payments/api,default,0
+2025-09-06,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,165,103,62.42,0,1,2025-10-12,0-7,demo/repo1,default,0
+2025-09-06,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,191,105,54.97,0,1,2025-09-13,0-7,demo/repo1,a-custom-model,0
+2025-09-06,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,217,134,61.75,0,2,2025-10-07,0-7,demo/repo1,default,0
+2025-09-06,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,154,107,69.48,0,1,2025-09-13,0-7,mobile/app,default,1
+2025-09-06,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,199,112,56.28,0,2,2025-10-09,0-7,demo/repo1,a-custom-model,1
+2025-09-06,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,153,101,66.01,0,1,2025-10-13,0-7,demo/repo2,default,1
+2025-09-06,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,215,150,69.77,0,2,2025-09-20,0-7,demo/repo2,default,1
+2025-09-07,2025-09-01,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,123,49,39.84,0,1,2025-10-10,0-7,payments/api,default,0
+2025-09-07,2025-09-01,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,234,169,72.22,0,2,2025-09-24,0-7,mobile/app,default,1
+2025-09-07,2025-09-01,dev03,dev03@example.com,growth,SDE2,vscode,python,118,77,65.25,0,2,2025-09-22,0-7,demo/repo1,default,0
+2025-09-07,2025-09-01,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,254,142,55.91,0,4,2025-10-11,0-7,payments/api,default,1
+2025-09-07,2025-09-01,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,246,116,47.15,0,4,2025-09-22,0-7,mobile/app,a-custom-model,1
+2025-09-07,2025-09-01,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,147,61,41.5,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-09-07,2025-09-01,dev07,dev07@example.com,mobile,SDE1,vscode,python,196,112,57.14,0,3,2025-09-19,0-7,demo/repo1,a-custom-model,0
+2025-09-07,2025-09-01,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,112,58,51.79,0,2,2025-10-08,0-7,demo/repo1,default,0
+2025-09-07,2025-09-01,dev09,dev09@example.com,growth,SDE1,vscode,typescript,256,167,65.23,0,4,2025-10-01,0-7,mobile/app,default,2
+2025-09-07,2025-09-01,dev10,dev10@example.com,growth,SDE1,vscode,go,230,153,66.52,0,3,2025-09-16,0-7,payments/api,default,1
+2025-09-07,2025-09-01,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,176,111,63.07,0,3,2025-10-10,0-7,demo/repo2,default,1
+2025-09-07,2025-09-01,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,204,144,70.59,0,3,2025-09-17,0-7,payments/api,default,1
+2025-09-07,2025-09-01,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,143,69,48.25,0,2,2025-09-16,0-7,mobile/app,default,0
+2025-09-07,2025-09-01,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,160,99,61.88,0,2,2025-10-12,0-7,payments/api,a-custom-model,0
+2025-09-07,2025-09-01,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,185,102,55.14,0,3,2025-09-13,0-7,demo/repo1,default,0
+2025-09-07,2025-09-01,dev16,dev16@example.com,mobile,SDE1,vscode,python,210,130,61.9,0,3,2025-10-07,0-7,demo/repo2,default,1
+2025-09-07,2025-09-01,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,149,103,69.13,0,2,2025-09-13,0-7,mobile/app,default,0
+2025-09-07,2025-09-01,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,192,108,56.25,0,3,2025-10-09,0-7,demo/repo2,a-custom-model,0
+2025-09-07,2025-09-01,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,148,98,66.22,0,2,2025-10-13,0-7,demo/repo2,default,0
+2025-09-07,2025-09-01,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,208,145,69.71,0,3,2025-09-20,0-7,demo/repo1,default,1
+2025-09-08,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,155,63,40.65,0,4,2025-10-10,0-7,demo/repo2,default,0
+2025-09-08,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,291,212,72.85,0,6,2025-09-24,0-7,payments/api,default,2
+2025-09-08,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,147,97,65.99,0,4,2025-09-22,0-7,demo/repo2,default,0
+2025-09-08,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,316,178,56.33,0,5,2025-10-11,0-7,mobile/app,default,1
+2025-09-08,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,307,146,47.56,0,5,2025-09-22,0-7,demo/repo2,default,1
+2025-09-08,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,183,77,42.08,0,3,2025-10-12,0-7,payments/api,default,0
+2025-09-08,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,244,140,57.38,0,4,2025-09-19,0-7,demo/repo1,default,1
+2025-09-08,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,139,73,52.52,0,2,2025-10-08,0-7,mobile/app,default,0
+2025-09-08,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,318,209,65.72,0,5,2025-10-01,0-7,mobile/app,default,1
+2025-09-08,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,286,191,66.78,0,5,2025-09-16,0-7,mobile/app,default,1
+2025-09-08,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,219,139,63.47,0,4,2025-10-10,0-7,payments/api,a-custom-model,0
+2025-09-08,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,254,180,70.87,0,4,2025-09-17,0-7,demo/repo2,default,1
+2025-09-08,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,178,88,49.44,0,3,2025-09-16,0-7,mobile/app,default,0
+2025-09-08,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,199,125,62.81,0,3,2025-10-12,0-7,mobile/app,default,0
+2025-09-08,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,230,128,55.65,0,4,2025-09-13,0-7,demo/repo1,a-custom-model,0
+2025-09-08,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,261,162,62.07,0,4,2025-10-07,0-7,demo/repo1,default,1
+2025-09-08,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,185,129,69.73,0,3,2025-09-13,0-7,demo/repo2,default,0
+2025-09-08,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,240,136,56.67,0,4,2025-10-09,0-7,demo/repo1,default,1
+2025-09-08,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,184,123,66.85,0,3,2025-10-13,0-7,payments/api,default,1
+2025-09-08,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,259,182,70.27,0,4,2025-09-20,0-7,demo/repo2,default,1
+2025-09-09,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,107,42,39.25,0,2,2025-10-10,0-7,mobile/app,default,0
+2025-09-09,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,204,147,72.06,0,2,2025-09-24,0-7,mobile/app,default,1
+2025-09-09,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,103,67,65.05,0,1,2025-09-22,0-7,payments/api,default,1
+2025-09-09,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,221,123,55.66,0,2,2025-10-11,0-7,demo/repo2,a-custom-model,1
+2025-09-09,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,215,101,46.98,0,2,2025-09-22,0-7,demo/repo2,default,0
+2025-09-09,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,128,53,41.41,0,1,2025-10-12,0-7,payments/api,default,0
+2025-09-09,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,171,97,56.73,0,2,2025-09-19,0-7,demo/repo2,default,0
+2025-09-09,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,97,49,50.52,0,1,2025-10-08,0-7,demo/repo2,default,0
+2025-09-09,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,223,145,65.02,0,2,2025-10-01,0-7,payments/api,default,1
+2025-09-09,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,201,133,66.17,0,2,2025-09-16,0-7,payments/api,default,0
+2025-09-09,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,154,96,62.34,0,2,2025-10-10,0-7,payments/api,default,0
+2025-09-09,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,178,125,70.22,0,2,2025-09-17,0-7,demo/repo1,default,0
+2025-09-09,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,125,60,48.0,0,1,2025-09-16,0-7,demo/repo1,default,0
+2025-09-09,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,139,86,61.87,0,1,2025-10-12,0-7,mobile/app,default,1
+2025-09-09,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,161,88,54.66,0,2,2025-09-13,0-7,payments/api,a-custom-model,1
+2025-09-09,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,183,112,61.2,0,2,2025-10-07,0-7,demo/repo1,default,0
+2025-09-09,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,130,89,68.46,0,1,2025-09-13,0-7,payments/api,default,1
+2025-09-09,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,168,94,55.95,0,2,2025-10-09,0-7,demo/repo2,default,1
+2025-09-09,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,129,85,65.89,0,1,2025-10-13,0-7,mobile/app,default,1
+2025-09-09,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,182,126,69.23,0,2,2025-09-20,0-7,payments/api,default,1
+2025-09-10,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,165,68,41.21,0,2,2025-10-10,0-7,mobile/app,a-custom-model,0
+2025-09-10,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,314,229,72.93,0,3,2025-09-24,0-7,demo/repo2,default,2
+2025-09-10,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,159,106,66.67,0,2,2025-09-22,0-7,demo/repo2,default,1
+2025-09-10,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,340,192,56.47,0,4,2025-10-11,0-7,payments/api,default,0
+2025-09-10,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,331,158,47.73,0,4,2025-09-22,0-7,mobile/app,default,0
+2025-09-10,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,197,84,42.64,0,2,2025-10-12,0-7,mobile/app,default,0
+2025-09-10,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,263,152,57.79,0,3,2025-09-19,0-7,demo/repo1,default,0
+2025-09-10,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,150,79,52.67,0,2,2025-10-08,0-7,payments/api,default,1
+2025-09-10,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,343,226,65.89,0,4,2025-10-01,0-7,payments/api,default,2
+2025-09-10,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,309,207,66.99,0,3,2025-09-16,0-7,demo/repo2,a-custom-model,2
+2025-09-10,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,237,151,63.71,0,3,2025-10-10,0-7,demo/repo1,default,1
+2025-09-10,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,274,195,71.17,0,3,2025-09-17,0-7,payments/api,a-custom-model,0
+2025-09-10,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,192,95,49.48,0,2,2025-09-16,0-7,payments/api,default,1
+2025-09-10,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,214,135,63.08,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-09-10,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,248,138,55.65,0,3,2025-09-13,0-7,demo/repo1,default,1
+2025-09-10,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,281,175,62.28,0,3,2025-10-07,0-7,payments/api,default,1
+2025-09-10,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,200,140,70.0,0,2,2025-09-13,0-7,payments/api,default,0
+2025-09-10,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,258,146,56.59,0,3,2025-10-09,0-7,payments/api,default,1
+2025-09-10,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,198,133,67.17,0,2,2025-10-13,0-7,payments/api,default,1
+2025-09-10,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,279,196,70.25,0,3,2025-09-20,0-7,mobile/app,default,1
+2025-09-11,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,138,56,40.58,0,3,2025-10-10,0-7,mobile/app,default,0
+2025-09-11,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,262,190,72.52,0,5,2025-09-24,0-7,payments/api,default,1
+2025-09-11,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,133,88,66.17,0,2,2025-09-22,0-7,payments/api,default,1
+2025-09-11,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,285,160,56.14,0,4,2025-10-11,0-7,payments/api,default,1
+2025-09-11,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,276,131,47.46,0,4,2025-09-22,0-7,mobile/app,default,1
+2025-09-11,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,164,69,42.07,0,2,2025-10-12,0-7,demo/repo2,a-custom-model,0
+2025-09-11,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,220,126,57.27,0,3,2025-09-19,0-7,demo/repo2,a-custom-model,1
+2025-09-11,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,125,65,52.0,0,2,2025-10-08,0-7,demo/repo1,default,0
+2025-09-11,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,287,188,65.51,0,4,2025-10-01,0-7,demo/repo1,default,2
+2025-09-11,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,258,172,66.67,0,4,2025-09-16,0-7,mobile/app,default,1
+2025-09-11,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,198,125,63.13,0,3,2025-10-10,0-7,mobile/app,default,1
+2025-09-11,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,229,162,70.74,0,3,2025-09-17,0-7,demo/repo1,default,1
+2025-09-11,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,161,79,49.07,0,2,2025-09-16,0-7,mobile/app,a-custom-model,0
+2025-09-11,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,179,112,62.57,0,3,2025-10-12,0-7,payments/api,a-custom-model,1
+2025-09-11,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,207,115,55.56,0,3,2025-09-13,0-7,mobile/app,default,1
+2025-09-11,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,235,146,62.13,0,3,2025-10-07,0-7,payments/api,default,0
+2025-09-11,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,167,116,69.46,0,2,2025-09-13,0-7,mobile/app,default,0
+2025-09-11,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,216,122,56.48,0,3,2025-10-09,0-7,demo/repo2,a-custom-model,0
+2025-09-11,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,166,110,66.27,0,2,2025-10-13,0-7,demo/repo2,default,1
+2025-09-11,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,234,164,70.09,0,3,2025-09-20,0-7,mobile/app,default,1
+2025-09-12,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,158,71,44.94,0,1,2025-10-10,0-7,demo/repo1,default,1
+2025-09-12,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,301,225,74.75,0,2,2025-09-24,0-7,payments/api,default,2
+2025-09-12,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,152,107,70.39,0,0,2025-09-22,0-7,demo/repo2,default,1
+2025-09-12,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,326,190,58.28,0,1,2025-10-11,0-7,demo/repo2,default,1
+2025-09-12,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,317,158,49.84,0,1,2025-09-22,0-7,mobile/app,default,1
+2025-09-12,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,189,86,45.5,0,0,2025-10-12,0-7,mobile/app,default,1
+2025-09-12,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,252,151,59.92,0,0,2025-09-19,0-7,demo/repo1,default,1
+2025-09-12,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,144,81,56.25,0,0,2025-10-08,0-7,mobile/app,a-custom-model,0
+2025-09-12,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,329,222,67.48,0,1,2025-10-01,0-7,payments/api,default,1
+2025-09-12,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,296,204,68.92,0,1,2025-09-16,0-7,demo/repo2,default,0
+2025-09-12,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,227,150,66.08,0,0,2025-10-10,0-7,demo/repo2,default,0
+2025-09-12,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,263,193,73.38,0,0,2025-09-17,0-7,payments/api,default,1
+2025-09-12,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,184,97,52.72,0,0,2025-09-16,0-7,payments/api,default,1
+2025-09-12,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,205,135,65.85,0,0,2025-10-12,0-7,demo/repo2,a-custom-model,0
+2025-09-12,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,237,138,58.23,0,0,2025-09-13,0-7,payments/api,default,1
+2025-09-12,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,270,174,64.44,0,1,2025-10-07,0-7,demo/repo2,default,0
+2025-09-12,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,191,140,73.3,0,0,2025-09-13,0-7,demo/repo2,default,0
+2025-09-12,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,247,146,59.11,0,0,2025-10-09,0-7,mobile/app,default,1
+2025-09-12,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,190,133,70.0,0,0,2025-10-13,0-7,mobile/app,default,1
+2025-09-12,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,268,194,72.39,0,1,2025-09-20,0-7,payments/api,default,1
+2025-09-13,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,142,58,40.85,0,1,2025-10-10,0-7,payments/api,default,0
+2025-09-13,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,269,195,72.49,0,2,2025-09-24,0-7,payments/api,a-custom-model,1
+2025-09-13,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,136,90,66.18,0,1,2025-09-22,0-7,mobile/app,default,0
+2025-09-13,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,292,164,56.16,0,2,2025-10-11,0-7,payments/api,default,1
+2025-09-13,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,283,135,47.7,0,2,2025-09-22,0-7,demo/repo2,default,1
+2025-09-13,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,169,71,42.01,0,1,2025-10-12,0-7,payments/api,default,0
+2025-09-13,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,225,129,57.33,0,1,2025-09-19,0-7,demo/repo2,default,1
+2025-09-13,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,128,67,52.34,0,1,2025-10-08,0-7,demo/repo1,a-custom-model,1
+2025-09-13,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,294,193,65.65,0,2,2025-10-01,0-7,demo/repo1,default,1
+2025-09-13,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,265,177,66.79,0,2,2025-09-16,0-7,payments/api,default,1
+2025-09-13,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,203,128,63.05,0,1,2025-10-10,0-7,payments/api,a-custom-model,1
+2025-09-13,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,235,166,70.64,0,2,2025-09-17,0-7,mobile/app,default,1
+2025-09-13,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,165,81,49.09,0,1,2025-09-16,0-7,mobile/app,default,1
+2025-09-13,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,183,114,62.3,0,1,2025-10-12,0-7,demo/repo1,default,1
+2025-09-13,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,212,117,55.19,0,1,2025-09-13,0-7,payments/api,a-custom-model,1
+2025-09-13,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,241,150,62.24,0,2,2025-10-07,0-7,demo/repo1,default,1
+2025-09-13,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,171,119,69.59,0,1,2025-09-13,0-7,demo/repo1,default,1
+2025-09-13,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,221,125,56.56,0,1,2025-10-09,0-7,mobile/app,default,1
+2025-09-13,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,170,113,66.47,0,1,2025-10-13,0-7,demo/repo2,default,1
+2025-09-13,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,239,167,69.87,0,2,2025-09-20,0-7,payments/api,default,0
+2025-09-14,2025-09-08,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,86,33,38.37,0,0,2025-10-10,0-7,demo/repo1,default,0
+2025-09-14,2025-09-08,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,162,116,71.6,0,1,2025-09-24,0-7,mobile/app,default,1
+2025-09-14,2025-09-08,dev03,dev03@example.com,growth,SDE2,vscode,python,82,52,63.41,0,1,2025-09-22,0-7,payments/api,default,0
+2025-09-14,2025-09-08,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,176,97,55.11,0,1,2025-10-11,0-7,demo/repo2,default,1
+2025-09-14,2025-09-08,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,171,79,46.2,0,1,2025-09-22,0-7,payments/api,default,0
+2025-09-14,2025-09-08,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,102,41,40.2,0,1,2025-10-12,0-7,mobile/app,default,0
+2025-09-14,2025-09-08,dev07,dev07@example.com,mobile,SDE1,vscode,python,136,76,55.88,0,1,2025-09-19,0-7,demo/repo1,default,1
+2025-09-14,2025-09-08,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,78,39,50.0,0,1,2025-10-08,0-7,demo/repo2,default,0
+2025-09-14,2025-09-08,dev09,dev09@example.com,growth,SDE1,vscode,typescript,177,114,64.41,0,1,2025-10-01,0-7,mobile/app,default,1
+2025-09-14,2025-09-08,dev10,dev10@example.com,growth,SDE1,vscode,go,160,105,65.62,0,1,2025-09-16,0-7,demo/repo1,default,1
+2025-09-14,2025-09-08,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,122,75,61.48,0,1,2025-10-10,0-7,mobile/app,default,0
+2025-09-14,2025-09-08,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,142,98,69.01,0,1,2025-09-17,0-7,demo/repo2,default,0
+2025-09-14,2025-09-08,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,100,47,47.0,0,1,2025-09-16,0-7,payments/api,default,0
+2025-09-14,2025-09-08,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,111,67,60.36,0,1,2025-10-12,0-7,demo/repo2,default,0
+2025-09-14,2025-09-08,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,128,69,53.91,0,1,2025-09-13,0-7,demo/repo1,default,0
+2025-09-14,2025-09-08,dev16,dev16@example.com,mobile,SDE1,vscode,python,146,89,60.96,0,1,2025-10-07,0-7,mobile/app,default,0
+2025-09-14,2025-09-08,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,103,70,67.96,0,1,2025-09-13,0-7,payments/api,default,0
+2025-09-14,2025-09-08,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,134,74,55.22,0,1,2025-10-09,0-7,demo/repo2,default,1
+2025-09-14,2025-09-08,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,103,67,65.05,0,1,2025-10-13,0-7,demo/repo2,default,0
+2025-09-14,2025-09-08,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,145,99,68.28,0,1,2025-09-20,0-7,payments/api,default,0
+2025-09-15,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,189,78,41.27,0,2,2025-10-10,0-7,payments/api,default,0
+2025-09-15,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,355,260,73.24,0,1,2025-09-24,0-7,payments/api,default,2
+2025-09-15,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,180,120,66.67,0,1,2025-09-22,0-7,demo/repo2,default,1
+2025-09-15,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,385,218,56.62,0,1,2025-10-11,0-7,demo/repo1,a-custom-model,0
+2025-09-15,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,374,179,47.86,0,1,2025-09-22,0-7,payments/api,default,0
+2025-09-15,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,223,95,42.6,0,1,2025-10-12,0-7,payments/api,default,1
+2025-09-15,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,297,172,57.91,0,1,2025-09-19,0-7,demo/repo1,a-custom-model,1
+2025-09-15,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,170,90,52.94,0,1,2025-10-08,0-7,mobile/app,default,0
+2025-09-15,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,388,256,65.98,0,1,2025-10-01,0-7,demo/repo2,default,2
+2025-09-15,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,349,234,67.05,0,1,2025-09-16,0-7,demo/repo2,default,2
+2025-09-15,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,268,171,63.81,0,1,2025-10-10,0-7,payments/api,default,1
+2025-09-15,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,310,221,71.29,0,1,2025-09-17,0-7,demo/repo2,default,2
+2025-09-15,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,218,109,50.0,0,1,2025-09-16,0-7,mobile/app,default,1
+2025-09-15,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,242,153,63.22,0,1,2025-10-12,0-7,mobile/app,a-custom-model,1
+2025-09-15,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,280,157,56.07,0,1,2025-09-13,0-7,demo/repo1,default,1
+2025-09-15,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,318,199,62.58,0,1,2025-10-07,0-7,demo/repo1,default,1
+2025-09-15,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,226,159,70.35,0,1,2025-09-13,0-7,payments/api,default,1
+2025-09-15,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,292,166,56.85,0,1,2025-10-09,0-7,mobile/app,default,0
+2025-09-15,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,224,151,67.41,0,1,2025-10-13,0-7,payments/api,default,1
+2025-09-15,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,316,223,70.57,0,1,2025-09-20,0-7,demo/repo1,a-custom-model,2
+2025-09-16,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,217,95,43.78,0,1,2025-10-10,0-7,payments/api,default,0
+2025-09-16,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,409,303,74.08,0,3,2025-09-24,0-7,payments/api,default,0
+2025-09-16,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,207,143,69.08,0,2,2025-09-22,0-7,payments/api,default,0
+2025-09-16,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,444,256,57.66,0,4,2025-10-11,0-7,mobile/app,default,1
+2025-09-16,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,431,211,48.96,0,3,2025-09-22,0-7,payments/api,default,0
+2025-09-16,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,257,115,44.75,0,2,2025-10-12,0-7,mobile/app,default,0
+2025-09-16,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,343,202,58.89,0,3,2025-09-19,0-7,payments/api,default,2
+2025-09-16,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,195,108,55.38,0,2,2025-10-08,0-7,payments/api,default,1
+2025-09-16,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,447,299,66.89,0,4,2025-10-01,0-7,demo/repo1,default,2
+2025-09-16,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,403,274,67.99,0,3,2025-09-16,0-7,mobile/app,default,0
+2025-09-16,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,309,201,65.05,0,2,2025-10-10,0-7,mobile/app,a-custom-model,1
+2025-09-16,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,357,258,72.27,0,3,2025-09-17,0-7,payments/api,default,2
+2025-09-16,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,251,130,51.79,0,2,2025-09-16,0-7,demo/repo2,default,1
+2025-09-16,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,279,180,64.52,0,2,2025-10-12,0-7,demo/repo1,default,1
+2025-09-16,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,323,185,57.28,0,3,2025-09-13,0-7,mobile/app,default,1
+2025-09-16,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,367,233,63.49,0,3,2025-10-07,0-7,mobile/app,default,1
+2025-09-16,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,260,187,71.92,0,2,2025-09-13,0-7,payments/api,default,2
+2025-09-16,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,337,196,58.16,0,3,2025-10-09,0-7,demo/repo2,default,1
+2025-09-16,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,258,178,68.99,0,2,2025-10-13,0-7,mobile/app,a-custom-model,1
+2025-09-16,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,365,261,71.51,0,3,2025-09-20,0-7,payments/api,default,2
+2025-09-17,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,188,87,46.28,0,2,2025-10-10,0-7,demo/repo2,default,0
+2025-09-17,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,354,268,75.71,0,3,2025-09-24,0-7,demo/repo2,default,2
+2025-09-17,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,179,128,71.51,0,1,2025-09-22,0-7,mobile/app,a-custom-model,0
+2025-09-17,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,384,227,59.11,0,3,2025-10-11,0-7,demo/repo2,default,2
+2025-09-17,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,373,188,50.4,0,3,2025-09-22,0-7,payments/api,default,0
+2025-09-17,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,222,104,46.85,0,2,2025-10-12,0-7,mobile/app,a-custom-model,1
+2025-09-17,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,297,181,60.94,0,2,2025-09-19,0-7,demo/repo1,default,1
+2025-09-17,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,169,97,57.4,0,1,2025-10-08,0-7,demo/repo1,a-custom-model,0
+2025-09-17,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,387,264,68.22,0,3,2025-10-01,0-7,demo/repo2,default,1
+2025-09-17,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,349,243,69.63,0,3,2025-09-16,0-7,demo/repo2,default,1
+2025-09-17,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,267,179,67.04,0,2,2025-10-10,0-7,mobile/app,default,1
+2025-09-17,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,310,230,74.19,0,2,2025-09-17,0-7,mobile/app,default,2
+2025-09-17,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,217,117,53.92,0,2,2025-09-16,0-7,mobile/app,a-custom-model,1
+2025-09-17,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,242,161,66.53,0,2,2025-10-12,0-7,demo/repo1,default,1
+2025-09-17,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,280,166,59.29,0,2,2025-09-13,0-7,demo/repo1,default,1
+2025-09-17,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,318,208,65.41,0,3,2025-10-07,0-7,demo/repo2,default,1
+2025-09-17,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,225,166,73.78,0,2,2025-09-13,0-7,payments/api,default,2
+2025-09-17,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,292,175,59.93,0,2,2025-10-09,0-7,demo/repo2,default,2
+2025-09-17,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,224,159,70.98,0,2,2025-10-13,0-7,demo/repo1,a-custom-model,1
+2025-09-17,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,316,232,73.42,0,3,2025-09-20,0-7,mobile/app,default,0
+2025-09-18,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,139,56,40.29,0,2,2025-10-10,0-7,mobile/app,default,0
+2025-09-18,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,262,190,72.52,0,4,2025-09-24,0-7,demo/repo2,default,1
+2025-09-18,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,133,88,66.17,0,1,2025-09-22,0-7,demo/repo1,default,1
+2025-09-18,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,285,160,56.14,0,3,2025-10-11,0-7,demo/repo1,default,1
+2025-09-18,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,277,132,47.65,0,3,2025-09-22,0-7,payments/api,a-custom-model,0
+2025-09-18,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,165,69,41.82,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-09-18,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,220,126,57.27,0,2,2025-09-19,0-7,mobile/app,default,0
+2025-09-18,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,125,65,52.0,0,1,2025-10-08,0-7,demo/repo1,default,0
+2025-09-18,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,287,188,65.51,0,3,2025-10-01,0-7,demo/repo2,default,1
+2025-09-18,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,258,172,66.67,0,3,2025-09-16,0-7,demo/repo2,default,2
+2025-09-18,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,198,125,63.13,0,2,2025-10-10,0-7,demo/repo1,a-custom-model,0
+2025-09-18,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,229,162,70.74,0,2,2025-09-17,0-7,demo/repo1,default,1
+2025-09-18,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,161,79,49.07,0,2,2025-09-16,0-7,mobile/app,default,1
+2025-09-18,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,179,112,62.57,0,2,2025-10-12,0-7,payments/api,default,1
+2025-09-18,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,207,115,55.56,0,2,2025-09-13,0-7,demo/repo2,a-custom-model,0
+2025-09-18,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,235,146,62.13,0,2,2025-10-07,0-7,demo/repo1,default,1
+2025-09-18,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,167,116,69.46,0,2,2025-09-13,0-7,payments/api,default,0
+2025-09-18,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,216,122,56.48,0,2,2025-10-09,0-7,demo/repo1,default,1
+2025-09-18,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,166,110,66.27,0,2,2025-10-13,0-7,demo/repo2,a-custom-model,1
+2025-09-18,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,234,164,70.09,0,2,2025-09-20,0-7,payments/api,default,1
+2025-09-19,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,189,78,41.27,0,1,2025-10-10,0-7,payments/api,default,1
+2025-09-19,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,355,260,73.24,0,2,2025-09-24,0-7,demo/repo2,default,2
+2025-09-19,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,180,120,66.67,0,1,2025-09-22,0-7,demo/repo1,default,1
+2025-09-19,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,385,218,56.62,0,2,2025-10-11,0-7,payments/api,default,2
+2025-09-19,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,374,179,47.86,0,1,2025-09-22,0-7,mobile/app,default,1
+2025-09-19,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,222,95,42.79,0,0,2025-10-12,0-7,demo/repo2,default,0
+2025-09-19,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,297,172,57.91,0,0,2025-09-19,0-7,demo/repo2,default,2
+2025-09-19,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,169,89,52.66,0,0,2025-10-08,0-7,mobile/app,a-custom-model,1
+2025-09-19,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,388,256,65.98,0,1,2025-10-01,0-7,demo/repo2,default,0
+2025-09-19,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,349,234,67.05,0,0,2025-09-16,0-7,demo/repo2,default,1
+2025-09-19,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,267,170,63.67,0,0,2025-10-10,0-7,demo/repo1,default,1
+2025-09-19,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,310,221,71.29,0,0,2025-09-17,0-7,demo/repo1,default,1
+2025-09-19,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,217,108,49.77,0,0,2025-09-16,0-7,demo/repo2,default,0
+2025-09-19,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,242,153,63.22,0,0,2025-10-12,0-7,demo/repo1,default,1
+2025-09-19,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,280,157,56.07,0,0,2025-09-13,0-7,payments/api,default,1
+2025-09-19,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,318,199,62.58,0,0,2025-10-07,0-7,mobile/app,default,1
+2025-09-19,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,226,159,70.35,0,0,2025-09-13,0-7,mobile/app,default,1
+2025-09-19,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,292,166,56.85,0,0,2025-10-09,0-7,payments/api,default,1
+2025-09-19,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,224,151,67.41,0,0,2025-10-13,0-7,demo/repo2,default,1
+2025-09-19,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,316,223,70.57,0,0,2025-09-20,0-7,demo/repo1,default,0
+2025-09-20,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,87,36,41.38,0,1,2025-10-10,0-7,payments/api,default,0
+2025-09-20,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,162,118,72.84,0,1,2025-09-24,0-7,payments/api,default,1
+2025-09-20,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,82,55,67.07,0,1,2025-09-22,0-7,payments/api,default,0
+2025-09-20,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,176,99,56.25,0,2,2025-10-11,0-7,payments/api,default,1
+2025-09-20,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,171,81,47.37,0,1,2025-09-22,0-7,payments/api,default,1
+2025-09-20,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,102,44,43.14,0,1,2025-10-12,0-7,demo/repo1,a-custom-model,0
+2025-09-20,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,136,78,57.35,0,1,2025-09-19,0-7,demo/repo1,default,1
+2025-09-20,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,77,41,53.25,0,1,2025-10-08,0-7,payments/api,default,0
+2025-09-20,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,177,116,65.54,0,2,2025-10-01,0-7,mobile/app,default,0
+2025-09-20,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,160,107,66.88,0,1,2025-09-16,0-7,demo/repo1,a-custom-model,1
+2025-09-20,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,122,78,63.93,0,1,2025-10-10,0-7,payments/api,a-custom-model,1
+2025-09-20,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,142,100,70.42,0,1,2025-09-17,0-7,payments/api,default,1
+2025-09-20,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,99,50,50.51,0,1,2025-09-16,0-7,demo/repo1,default,0
+2025-09-20,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,111,70,63.06,0,1,2025-10-12,0-7,demo/repo1,default,0
+2025-09-20,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,128,72,56.25,0,1,2025-09-13,0-7,demo/repo1,default,0
+2025-09-20,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,145,90,62.07,0,1,2025-10-07,0-7,demo/repo2,default,0
+2025-09-20,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,103,73,70.87,0,1,2025-09-13,0-7,demo/repo1,default,0
+2025-09-20,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,133,76,57.14,0,1,2025-10-09,0-7,demo/repo2,default,1
+2025-09-20,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,102,69,67.65,0,1,2025-10-13,0-7,mobile/app,a-custom-model,0
+2025-09-20,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,144,101,70.14,0,1,2025-09-20,0-7,demo/repo2,default,0
+2025-09-21,2025-09-15,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,95,42,44.21,0,1,2025-10-10,0-7,demo/repo1,default,0
+2025-09-21,2025-09-15,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,180,133,73.89,0,2,2025-09-24,0-7,demo/repo1,default,1
+2025-09-21,2025-09-15,dev03,dev03@example.com,growth,SDE2,vscode,python,91,63,69.23,0,1,2025-09-22,0-7,demo/repo2,default,0
+2025-09-21,2025-09-15,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,195,112,57.44,0,2,2025-10-11,0-7,demo/repo1,default,0
+2025-09-21,2025-09-15,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,189,92,48.68,0,2,2025-09-22,0-7,payments/api,default,1
+2025-09-21,2025-09-15,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,113,51,45.13,0,1,2025-10-12,0-7,demo/repo1,a-custom-model,0
+2025-09-21,2025-09-15,dev07,dev07@example.com,mobile,SDE1,vscode,python,151,89,58.94,0,1,2025-09-19,0-7,demo/repo1,default,1
+2025-09-21,2025-09-15,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,86,48,55.81,0,1,2025-10-08,0-7,demo/repo1,a-custom-model,0
+2025-09-21,2025-09-15,dev09,dev09@example.com,growth,SDE1,vscode,typescript,196,131,66.84,0,2,2025-10-01,0-7,demo/repo1,default,1
+2025-09-21,2025-09-15,dev10,dev10@example.com,growth,SDE1,vscode,go,177,120,67.8,0,2,2025-09-16,0-7,mobile/app,default,0
+2025-09-21,2025-09-15,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,136,88,64.71,0,1,2025-10-10,0-7,payments/api,a-custom-model,1
+2025-09-21,2025-09-15,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,157,113,71.97,0,1,2025-09-17,0-7,demo/repo1,default,1
+2025-09-21,2025-09-15,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,110,57,51.82,0,1,2025-09-16,0-7,demo/repo2,default,0
+2025-09-21,2025-09-15,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,123,80,65.04,0,1,2025-10-12,0-7,demo/repo1,a-custom-model,1
+2025-09-21,2025-09-15,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,142,82,57.75,0,1,2025-09-13,8-30,demo/repo2,default,1
+2025-09-21,2025-09-15,dev16,dev16@example.com,mobile,SDE1,vscode,python,161,102,63.35,0,2,2025-10-07,0-7,mobile/app,default,1
+2025-09-21,2025-09-15,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,114,82,71.93,0,1,2025-09-13,8-30,payments/api,default,0
+2025-09-21,2025-09-15,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,148,86,58.11,0,1,2025-10-09,0-7,demo/repo1,a-custom-model,0
+2025-09-21,2025-09-15,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,114,79,69.3,0,1,2025-10-13,0-7,demo/repo2,default,0
+2025-09-21,2025-09-15,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,160,114,71.25,0,2,2025-09-20,0-7,mobile/app,default,1
+2025-09-22,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,181,85,46.96,0,1,2025-10-10,0-7,demo/repo2,a-custom-model,0
+2025-09-22,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,339,258,76.11,0,2,2025-09-24,0-7,payments/api,default,1
+2025-09-22,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,172,125,72.67,0,1,2025-09-22,0-7,demo/repo1,default,0
+2025-09-22,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,368,219,59.51,0,2,2025-10-11,0-7,payments/api,default,1
+2025-09-22,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,358,182,50.84,0,2,2025-09-22,0-7,payments/api,a-custom-model,1
+2025-09-22,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,213,101,47.42,0,1,2025-10-12,0-7,demo/repo1,default,1
+2025-09-22,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,284,174,61.27,0,1,2025-09-19,0-7,demo/repo2,default,2
+2025-09-22,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,162,96,59.26,0,1,2025-10-08,0-7,mobile/app,default,0
+2025-09-22,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,371,255,68.73,0,2,2025-10-01,0-7,demo/repo1,a-custom-model,1
+2025-09-22,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,334,234,70.06,0,2,2025-09-16,0-7,mobile/app,a-custom-model,1
+2025-09-22,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,256,173,67.58,0,1,2025-10-10,0-7,demo/repo1,a-custom-model,0
+2025-09-22,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,297,221,74.41,0,2,2025-09-17,0-7,mobile/app,default,1
+2025-09-22,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,208,113,54.33,0,1,2025-09-16,0-7,payments/api,a-custom-model,0
+2025-09-22,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,232,156,67.24,0,1,2025-10-12,0-7,payments/api,default,1
+2025-09-22,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,268,160,59.7,0,1,2025-09-13,8-30,mobile/app,default,1
+2025-09-22,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,304,200,65.79,0,2,2025-10-07,0-7,demo/repo1,default,2
+2025-09-22,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,216,162,75.0,0,1,2025-09-13,8-30,mobile/app,default,1
+2025-09-22,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,279,169,60.57,0,1,2025-10-09,0-7,demo/repo1,default,0
+2025-09-22,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,214,154,71.96,0,1,2025-10-13,0-7,mobile/app,a-custom-model,1
+2025-09-22,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,302,223,73.84,0,2,2025-09-20,0-7,demo/repo1,default,1
+2025-09-23,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,90,35,38.89,0,1,2025-10-10,0-7,mobile/app,a-custom-model,0
+2025-09-23,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,170,122,71.76,0,2,2025-09-24,0-7,mobile/app,default,0
+2025-09-23,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,86,55,63.95,0,1,2025-09-22,0-7,mobile/app,a-custom-model,0
+2025-09-23,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,185,102,55.14,0,2,2025-10-11,0-7,demo/repo1,a-custom-model,0
+2025-09-23,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,180,84,46.67,0,2,2025-09-22,0-7,demo/repo2,default,1
+2025-09-23,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,107,43,40.19,0,1,2025-10-12,0-7,mobile/app,default,0
+2025-09-23,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,143,80,55.94,0,2,2025-09-19,0-7,mobile/app,a-custom-model,1
+2025-09-23,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,81,40,49.38,0,1,2025-10-08,0-7,demo/repo1,default,0
+2025-09-23,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,186,120,64.52,0,2,2025-10-01,0-7,demo/repo2,default,1
+2025-09-23,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,168,110,65.48,0,2,2025-09-16,0-7,demo/repo2,default,1
+2025-09-23,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,128,79,61.72,0,2,2025-10-10,0-7,mobile/app,default,0
+2025-09-23,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,149,104,69.8,0,2,2025-09-17,0-7,mobile/app,default,0
+2025-09-23,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,104,49,47.12,0,1,2025-09-16,0-7,demo/repo2,default,0
+2025-09-23,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,116,71,61.21,0,1,2025-10-12,0-7,payments/api,default,0
+2025-09-23,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,135,73,54.07,0,2,2025-09-13,8-30,mobile/app,default,0
+2025-09-23,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,153,93,60.78,0,2,2025-10-07,0-7,demo/repo2,default,1
+2025-09-23,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,108,73,67.59,0,1,2025-09-13,8-30,mobile/app,default,1
+2025-09-23,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,140,77,55.0,0,2,2025-10-09,0-7,demo/repo1,a-custom-model,0
+2025-09-23,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,108,70,64.81,0,1,2025-10-13,0-7,payments/api,default,0
+2025-09-23,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,152,105,69.08,0,2,2025-09-20,0-7,demo/repo1,default,1
+2025-09-24,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,162,66,40.74,0,2,2025-10-10,0-7,payments/api,default,1
+2025-09-24,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,306,223,72.88,0,3,2025-09-24,0-7,mobile/app,default,2
+2025-09-24,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,155,103,66.45,0,1,2025-09-22,0-7,demo/repo2,default,1
+2025-09-24,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,332,188,56.63,0,2,2025-10-11,0-7,mobile/app,a-custom-model,2
+2025-09-24,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,322,154,47.83,0,2,2025-09-22,0-7,demo/repo2,default,1
+2025-09-24,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,192,81,42.19,0,1,2025-10-12,0-7,demo/repo2,default,1
+2025-09-24,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,256,147,57.42,0,2,2025-09-19,0-7,demo/repo2,default,1
+2025-09-24,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,146,77,52.74,0,1,2025-10-08,0-7,mobile/app,a-custom-model,1
+2025-09-24,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,334,220,65.87,0,2,2025-10-01,0-7,demo/repo1,default,0
+2025-09-24,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,301,201,66.78,0,2,2025-09-16,8-30,mobile/app,default,1
+2025-09-24,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,231,147,63.64,0,2,2025-10-10,0-7,demo/repo2,a-custom-model,1
+2025-09-24,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,267,190,71.16,0,2,2025-09-17,0-7,mobile/app,default,2
+2025-09-24,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,187,92,49.2,0,1,2025-09-16,8-30,demo/repo2,a-custom-model,1
+2025-09-24,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,209,131,62.68,0,1,2025-10-12,0-7,mobile/app,default,1
+2025-09-24,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,241,134,55.6,0,2,2025-09-13,8-30,demo/repo1,default,1
+2025-09-24,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,274,171,62.41,0,2,2025-10-07,0-7,mobile/app,a-custom-model,1
+2025-09-24,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,194,136,70.1,0,1,2025-09-13,8-30,demo/repo1,default,0
+2025-09-24,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,252,143,56.75,0,2,2025-10-09,0-7,payments/api,default,1
+2025-09-24,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,193,129,66.84,0,1,2025-10-13,0-7,demo/repo1,default,1
+2025-09-24,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,272,191,70.22,0,2,2025-09-20,0-7,mobile/app,a-custom-model,1
+2025-09-25,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,230,106,46.09,0,1,2025-10-10,0-7,payments/api,a-custom-model,0
+2025-09-25,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,436,330,75.69,0,1,2025-09-24,0-7,mobile/app,default,1
+2025-09-25,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,221,159,71.95,0,1,2025-09-22,0-7,mobile/app,default,2
+2025-09-25,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,474,280,59.07,0,1,2025-10-11,0-7,demo/repo1,default,3
+2025-09-25,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,460,232,50.43,0,1,2025-09-22,0-7,payments/api,default,1
+2025-09-25,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,274,128,46.72,0,1,2025-10-12,0-7,payments/api,a-custom-model,1
+2025-09-25,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,366,223,60.93,0,1,2025-09-19,0-7,payments/api,default,2
+2025-09-25,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,209,122,58.37,0,1,2025-10-08,0-7,demo/repo2,default,1
+2025-09-25,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,477,326,68.34,0,1,2025-10-01,0-7,demo/repo1,default,3
+2025-09-25,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,430,300,69.77,0,1,2025-09-16,8-30,demo/repo1,default,2
+2025-09-25,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,329,221,67.17,0,1,2025-10-10,0-7,demo/repo2,default,0
+2025-09-25,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,381,283,74.28,0,1,2025-09-17,8-30,payments/api,default,3
+2025-09-25,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,268,145,54.1,0,1,2025-09-16,8-30,payments/api,default,1
+2025-09-25,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,298,199,66.78,0,1,2025-10-12,0-7,mobile/app,a-custom-model,1
+2025-09-25,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,345,204,59.13,0,1,2025-09-13,8-30,demo/repo1,default,0
+2025-09-25,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,392,256,65.31,0,1,2025-10-07,0-7,demo/repo1,default,2
+2025-09-25,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,278,207,74.46,0,1,2025-09-13,8-30,mobile/app,default,1
+2025-09-25,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,359,216,60.17,0,1,2025-10-09,0-7,payments/api,a-custom-model,1
+2025-09-25,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,276,197,71.38,0,1,2025-10-13,0-7,payments/api,default,2
+2025-09-25,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,389,285,73.26,0,1,2025-09-20,0-7,payments/api,default,1
+2025-09-26,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,145,69,47.59,0,3,2025-10-10,0-7,mobile/app,default,0
+2025-09-26,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,274,209,76.28,0,4,2025-09-24,0-7,mobile/app,a-custom-model,1
+2025-09-26,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,138,101,73.19,0,2,2025-09-22,0-7,mobile/app,default,1
+2025-09-26,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,296,177,59.8,0,4,2025-10-11,0-7,mobile/app,default,0
+2025-09-26,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,287,147,51.22,0,4,2025-09-22,0-7,demo/repo2,default,1
+2025-09-26,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,171,82,47.95,0,2,2025-10-12,0-7,demo/repo1,default,1
+2025-09-26,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,228,141,61.84,0,3,2025-09-19,0-7,payments/api,a-custom-model,1
+2025-09-26,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,130,78,60.0,0,2,2025-10-08,0-7,payments/api,a-custom-model,1
+2025-09-26,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,298,205,68.79,0,4,2025-10-01,0-7,payments/api,default,1
+2025-09-26,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,268,189,70.52,0,4,2025-09-16,8-30,demo/repo2,default,1
+2025-09-26,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,206,140,67.96,0,3,2025-10-10,0-7,demo/repo2,default,0
+2025-09-26,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,238,178,74.79,0,3,2025-09-17,8-30,mobile/app,default,1
+2025-09-26,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,167,92,55.09,0,2,2025-09-16,8-30,mobile/app,default,1
+2025-09-26,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,186,126,67.74,0,3,2025-10-12,0-7,demo/repo2,default,1
+2025-09-26,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,215,129,60.0,0,3,2025-09-13,8-30,demo/repo2,default,1
+2025-09-26,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,245,162,66.12,0,3,2025-10-07,0-7,demo/repo2,default,1
+2025-09-26,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,173,131,75.72,0,2,2025-09-13,8-30,payments/api,default,1
+2025-09-26,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,224,136,60.71,0,3,2025-10-09,0-7,payments/api,default,1
+2025-09-26,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,172,125,72.67,0,2,2025-10-13,0-7,demo/repo1,default,1
+2025-09-26,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,243,180,74.07,0,3,2025-09-20,0-7,demo/repo1,default,1
+2025-09-27,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,90,35,38.89,0,0,2025-10-10,0-7,payments/api,default,0
+2025-09-27,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,171,122,71.35,0,0,2025-09-24,0-7,payments/api,a-custom-model,0
+2025-09-27,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,87,56,64.37,0,1,2025-09-22,0-7,demo/repo2,default,0
+2025-09-27,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,185,102,55.14,0,1,2025-10-11,0-7,payments/api,a-custom-model,0
+2025-09-27,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,180,84,46.67,0,1,2025-09-22,0-7,mobile/app,default,0
+2025-09-27,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,107,43,40.19,0,1,2025-10-12,0-7,demo/repo2,default,0
+2025-09-27,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,143,80,55.94,0,1,2025-09-19,8-30,demo/repo2,default,0
+2025-09-27,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,82,41,50.0,0,1,2025-10-08,0-7,demo/repo1,a-custom-model,0
+2025-09-27,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,187,121,64.71,0,1,2025-10-01,0-7,demo/repo2,default,1
+2025-09-27,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,168,110,65.48,0,1,2025-09-16,8-30,demo/repo1,default,1
+2025-09-27,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,129,80,62.02,0,1,2025-10-10,0-7,demo/repo2,a-custom-model,1
+2025-09-27,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,149,104,69.8,0,1,2025-09-17,8-30,payments/api,default,1
+2025-09-27,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,105,50,47.62,0,1,2025-09-16,8-30,demo/repo2,default,0
+2025-09-27,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,117,71,60.68,0,1,2025-10-12,0-7,demo/repo1,a-custom-model,1
+2025-09-27,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,135,73,54.07,0,1,2025-09-13,8-30,demo/repo2,default,1
+2025-09-27,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,153,93,60.78,0,1,2025-10-07,0-7,demo/repo2,default,1
+2025-09-27,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,109,74,67.89,0,1,2025-09-13,8-30,payments/api,default,0
+2025-09-27,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,141,78,55.32,0,1,2025-10-09,0-7,mobile/app,default,0
+2025-09-27,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,108,70,64.81,0,1,2025-10-13,0-7,demo/repo1,default,1
+2025-09-27,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,152,105,69.08,0,1,2025-09-20,0-7,mobile/app,a-custom-model,0
+2025-09-28,2025-09-22,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,67,33,49.25,0,0,2025-10-10,0-7,demo/repo2,default,0
+2025-09-28,2025-09-22,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,125,96,76.8,0,3,2025-09-24,0-7,demo/repo1,default,1
+2025-09-28,2025-09-22,dev03,dev03@example.com,growth,SDE2,vscode,python,63,46,73.02,0,1,2025-09-22,0-7,payments/api,a-custom-model,0
+2025-09-28,2025-09-22,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,136,82,60.29,0,3,2025-10-11,0-7,payments/api,default,0
+2025-09-28,2025-09-22,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,132,68,51.52,0,3,2025-09-22,0-7,payments/api,default,0
+2025-09-28,2025-09-22,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,79,39,49.37,0,2,2025-10-12,0-7,demo/repo1,default,0
+2025-09-28,2025-09-22,dev07,dev07@example.com,mobile,SDE1,vscode,python,105,65,61.9,0,2,2025-09-19,8-30,demo/repo2,a-custom-model,0
+2025-09-28,2025-09-22,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,60,36,60.0,0,1,2025-10-08,0-7,demo/repo2,default,0
+2025-09-28,2025-09-22,dev09,dev09@example.com,growth,SDE1,vscode,typescript,137,95,69.34,0,3,2025-10-01,0-7,payments/api,a-custom-model,0
+2025-09-28,2025-09-22,dev10,dev10@example.com,growth,SDE1,vscode,go,123,87,70.73,0,3,2025-09-16,8-30,payments/api,default,1
+2025-09-28,2025-09-22,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,94,65,69.15,0,2,2025-10-10,0-7,payments/api,default,0
+2025-09-28,2025-09-22,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,109,81,74.31,0,2,2025-09-17,8-30,demo/repo1,default,1
+2025-09-28,2025-09-22,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,77,43,55.84,0,2,2025-09-16,8-30,demo/repo2,default,0
+2025-09-28,2025-09-22,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,85,57,67.06,0,2,2025-10-12,0-7,payments/api,default,0
+2025-09-28,2025-09-22,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,99,60,60.61,0,2,2025-09-13,8-30,mobile/app,a-custom-model,0
+2025-09-28,2025-09-22,dev16,dev16@example.com,mobile,SDE1,vscode,python,112,75,66.96,0,2,2025-10-07,0-7,demo/repo1,default,0
+2025-09-28,2025-09-22,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,80,60,75.0,0,2,2025-09-13,8-30,payments/api,default,0
+2025-09-28,2025-09-22,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,103,63,61.17,0,2,2025-10-09,0-7,demo/repo2,a-custom-model,0
+2025-09-28,2025-09-22,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,79,57,72.15,0,2,2025-10-13,0-7,payments/api,default,0
+2025-09-28,2025-09-22,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,112,83,74.11,0,2,2025-09-20,8-30,demo/repo1,a-custom-model,1
+2025-09-29,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,144,66,45.83,0,0,2025-10-10,0-7,demo/repo2,default,1
+2025-09-29,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,270,204,75.56,0,2,2025-09-24,0-7,mobile/app,default,0
+2025-09-29,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,137,98,71.53,0,1,2025-09-22,0-7,mobile/app,default,1
+2025-09-29,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,293,174,59.39,0,2,2025-10-11,0-7,payments/api,default,1
+2025-09-29,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,284,144,50.7,0,2,2025-09-22,0-7,mobile/app,default,1
+2025-09-29,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,169,80,47.34,0,1,2025-10-12,0-7,mobile/app,default,0
+2025-09-29,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,226,137,60.62,0,2,2025-09-19,8-30,mobile/app,a-custom-model,0
+2025-09-29,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,129,75,58.14,0,1,2025-10-08,0-7,demo/repo2,default,1
+2025-09-29,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,295,202,68.47,0,2,2025-10-01,0-7,mobile/app,default,2
+2025-09-29,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,266,185,69.55,0,2,2025-09-16,8-30,demo/repo2,default,2
+2025-09-29,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,203,136,67.0,0,1,2025-10-10,0-7,demo/repo2,default,1
+2025-09-29,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,236,175,74.15,0,2,2025-09-17,8-30,payments/api,default,1
+2025-09-29,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,165,89,53.94,0,1,2025-09-16,8-30,mobile/app,a-custom-model,1
+2025-09-29,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,184,123,66.85,0,1,2025-10-12,0-7,demo/repo2,default,1
+2025-09-29,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,213,126,59.15,0,2,2025-09-13,8-30,mobile/app,default,1
+2025-09-29,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,242,158,65.29,0,2,2025-10-07,0-7,payments/api,default,1
+2025-09-29,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,172,128,74.42,0,1,2025-09-13,8-30,demo/repo2,default,0
+2025-09-29,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,222,133,59.91,0,2,2025-10-09,0-7,mobile/app,default,1
+2025-09-29,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,170,121,71.18,0,1,2025-10-13,0-7,mobile/app,default,1
+2025-09-29,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,240,176,73.33,0,2,2025-09-20,8-30,payments/api,default,1
+2025-09-30,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,144,64,44.44,0,2,2025-10-10,0-7,payments/api,default,0
+2025-09-30,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,272,203,74.63,0,3,2025-09-24,0-7,demo/repo1,default,0
+2025-09-30,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,137,95,69.34,0,1,2025-09-22,8-30,demo/repo2,a-custom-model,0
+2025-09-30,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,294,172,58.5,0,3,2025-10-11,0-7,payments/api,default,1
+2025-09-30,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,286,142,49.65,0,3,2025-09-22,8-30,demo/repo2,default,1
+2025-09-30,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,170,78,45.88,0,2,2025-10-12,0-7,payments/api,default,0
+2025-09-30,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,227,136,59.91,0,2,2025-09-19,8-30,mobile/app,default,1
+2025-09-30,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,129,72,55.81,0,1,2025-10-08,0-7,demo/repo2,default,0
+2025-09-30,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,296,200,67.57,0,3,2025-10-01,0-7,mobile/app,a-custom-model,1
+2025-09-30,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,267,184,68.91,0,3,2025-09-16,8-30,demo/repo1,default,0
+2025-09-30,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,204,134,65.69,0,2,2025-10-10,0-7,demo/repo2,default,1
+2025-09-30,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,237,173,73.0,0,2,2025-09-17,8-30,demo/repo1,default,1
+2025-09-30,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,166,87,52.41,0,2,2025-09-16,8-30,mobile/app,default,1
+2025-09-30,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,185,121,65.41,0,2,2025-10-12,0-7,payments/api,default,1
+2025-09-30,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,214,125,58.41,0,2,2025-09-13,8-30,demo/repo1,default,1
+2025-09-30,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,243,157,64.61,0,3,2025-10-07,0-7,demo/repo2,default,1
+2025-09-30,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,172,125,72.67,0,2,2025-09-13,8-30,payments/api,default,1
+2025-09-30,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,223,132,59.19,0,2,2025-10-09,0-7,mobile/app,default,1
+2025-09-30,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,171,119,69.59,0,2,2025-10-13,0-7,mobile/app,default,0
+2025-09-30,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,241,174,72.2,0,3,2025-09-20,8-30,demo/repo2,default,1
+2025-10-01,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,146,59,40.41,0,2,2025-10-10,0-7,demo/repo2,a-custom-model,0
+2025-10-01,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,275,200,72.73,0,4,2025-09-24,0-7,payments/api,default,1
+2025-10-01,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,139,92,66.19,0,2,2025-09-22,8-30,payments/api,default,0
+2025-10-01,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,298,168,56.38,0,4,2025-10-11,0-7,payments/api,a-custom-model,1
+2025-10-01,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,290,138,47.59,0,4,2025-09-22,8-30,mobile/app,default,1
+2025-10-01,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,172,72,41.86,0,2,2025-10-12,0-7,mobile/app,a-custom-model,0
+2025-10-01,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,230,132,57.39,0,3,2025-09-19,8-30,demo/repo2,default,1
+2025-10-01,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,131,68,51.91,0,2,2025-10-08,0-7,mobile/app,a-custom-model,1
+2025-10-01,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,300,197,65.67,0,4,2025-10-01,0-7,demo/repo1,default,1
+2025-10-01,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,270,180,66.67,0,4,2025-09-16,8-30,demo/repo1,a-custom-model,1
+2025-10-01,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,207,131,63.29,0,3,2025-10-10,0-7,payments/api,default,0
+2025-10-01,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,240,170,70.83,0,3,2025-09-17,8-30,demo/repo2,default,1
+2025-10-01,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,168,83,49.4,0,2,2025-09-16,8-30,demo/repo2,default,1
+2025-10-01,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,187,117,62.57,0,3,2025-10-12,0-7,demo/repo2,a-custom-model,1
+2025-10-01,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,217,120,55.3,0,3,2025-09-13,8-30,demo/repo2,default,1
+2025-10-01,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,246,153,62.2,0,3,2025-10-07,0-7,demo/repo1,default,1
+2025-10-01,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,175,122,69.71,0,2,2025-09-13,8-30,payments/api,a-custom-model,0
+2025-10-01,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,226,128,56.64,0,3,2025-10-09,0-7,mobile/app,default,1
+2025-10-01,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,174,116,66.67,0,2,2025-10-13,0-7,demo/repo1,default,0
+2025-10-01,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,245,171,69.8,0,3,2025-09-20,8-30,mobile/app,default,0
+2025-10-02,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,146,59,40.41,0,1,2025-10-10,0-7,demo/repo1,default,0
+2025-10-02,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,277,201,72.56,0,3,2025-09-24,8-30,demo/repo1,a-custom-model,2
+2025-10-02,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,140,92,65.71,0,2,2025-09-22,8-30,payments/api,default,1
+2025-10-02,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,302,170,56.29,0,3,2025-10-11,0-7,demo/repo1,default,2
+2025-10-02,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,293,140,47.78,0,3,2025-09-22,8-30,mobile/app,default,0
+2025-10-02,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,174,73,41.95,0,2,2025-10-12,0-7,payments/api,default,0
+2025-10-02,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,233,134,57.51,0,3,2025-09-19,8-30,mobile/app,default,0
+2025-10-02,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,133,69,51.88,0,2,2025-10-08,0-7,demo/repo2,default,0
+2025-10-02,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,304,200,65.79,0,3,2025-10-01,0-7,payments/api,a-custom-model,1
+2025-10-02,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,274,183,66.79,0,3,2025-09-16,8-30,demo/repo2,default,1
+2025-10-02,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,210,133,63.33,0,2,2025-10-10,0-7,demo/repo2,a-custom-model,1
+2025-10-02,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,243,172,70.78,0,3,2025-09-17,8-30,demo/repo2,default,1
+2025-10-02,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,170,84,49.41,0,2,2025-09-16,8-30,demo/repo1,a-custom-model,1
+2025-10-02,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,190,119,62.63,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-10-02,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,220,122,55.45,0,3,2025-09-13,8-30,demo/repo1,default,1
+2025-10-02,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,249,155,62.25,0,3,2025-10-07,0-7,payments/api,default,1
+2025-10-02,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,177,123,69.49,0,2,2025-09-13,8-30,demo/repo1,default,1
+2025-10-02,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,229,129,56.33,0,3,2025-10-09,0-7,payments/api,default,1
+2025-10-02,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,176,117,66.48,0,2,2025-10-13,0-7,mobile/app,a-custom-model,1
+2025-10-02,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,248,174,70.16,0,3,2025-09-20,8-30,demo/repo1,default,1
+2025-10-03,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,154,73,47.4,0,3,2025-10-10,0-7,mobile/app,default,0
+2025-10-03,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,291,222,76.29,0,5,2025-09-24,8-30,payments/api,default,0
+2025-10-03,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,147,107,72.79,0,3,2025-09-22,8-30,mobile/app,default,0
+2025-10-03,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,315,188,59.68,0,6,2025-10-11,0-7,demo/repo2,default,1
+2025-10-03,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,306,156,50.98,0,6,2025-09-22,8-30,payments/api,default,1
+2025-10-03,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,182,87,47.8,0,3,2025-10-12,0-7,payments/api,a-custom-model,0
+2025-10-03,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,243,150,61.73,0,5,2025-09-19,8-30,demo/repo2,default,1
+2025-10-03,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,139,83,59.71,0,3,2025-10-08,0-7,payments/api,a-custom-model,0
+2025-10-03,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,317,218,68.77,0,6,2025-10-01,0-7,demo/repo1,default,0
+2025-10-03,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,286,201,70.28,0,5,2025-09-16,8-30,mobile/app,default,0
+2025-10-03,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,219,149,68.04,0,4,2025-10-10,0-7,demo/repo2,a-custom-model,1
+2025-10-03,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,254,190,74.8,0,5,2025-09-17,8-30,demo/repo2,default,1
+2025-10-03,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,178,98,55.06,0,3,2025-09-16,8-30,demo/repo2,default,0
+2025-10-03,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,198,134,67.68,0,4,2025-10-12,0-7,payments/api,a-custom-model,1
+2025-10-03,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,229,137,59.83,0,4,2025-09-13,8-30,demo/repo1,default,1
+2025-10-03,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,261,172,65.9,0,5,2025-10-07,0-7,demo/repo2,default,2
+2025-10-03,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,185,139,75.14,0,3,2025-09-13,8-30,payments/api,default,0
+2025-10-03,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,239,145,60.67,0,4,2025-10-09,0-7,demo/repo1,default,0
+2025-10-03,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,184,133,72.28,0,3,2025-10-13,0-7,payments/api,default,1
+2025-10-03,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,259,192,74.13,0,5,2025-09-20,8-30,demo/repo2,default,0
+2025-10-04,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,115,46,40.0,0,2,2025-10-10,0-7,mobile/app,default,0
+2025-10-04,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,216,156,72.22,0,3,2025-09-24,8-30,mobile/app,default,1
+2025-10-04,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,109,71,65.14,0,1,2025-09-22,8-30,mobile/app,default,0
+2025-10-04,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,234,131,55.98,0,2,2025-10-11,0-7,payments/api,default,1
+2025-10-04,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,227,107,47.14,0,2,2025-09-22,8-30,payments/api,a-custom-model,0
+2025-10-04,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,135,56,41.48,0,1,2025-10-12,0-7,mobile/app,default,0
+2025-10-04,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,181,103,56.91,0,2,2025-09-19,8-30,demo/repo2,default,1
+2025-10-04,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,103,53,51.46,0,1,2025-10-08,0-7,payments/api,default,0
+2025-10-04,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,235,153,65.11,0,2,2025-10-01,0-7,mobile/app,default,1
+2025-10-04,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,212,140,66.04,0,2,2025-09-16,8-30,demo/repo2,default,1
+2025-10-04,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,162,101,62.35,0,2,2025-10-10,0-7,payments/api,default,1
+2025-10-04,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,188,132,70.21,0,2,2025-09-17,8-30,payments/api,a-custom-model,0
+2025-10-04,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,132,64,48.48,0,1,2025-09-16,8-30,demo/repo2,a-custom-model,0
+2025-10-04,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,147,91,61.9,0,2,2025-10-12,0-7,demo/repo2,a-custom-model,0
+2025-10-04,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,170,93,54.71,0,2,2025-09-13,8-30,payments/api,default,0
+2025-10-04,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,193,119,61.66,0,2,2025-10-07,0-7,mobile/app,a-custom-model,1
+2025-10-04,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,137,94,68.61,0,1,2025-09-13,8-30,payments/api,default,0
+2025-10-04,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,177,99,55.93,0,2,2025-10-09,0-7,demo/repo1,a-custom-model,0
+2025-10-04,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,136,89,65.44,0,1,2025-10-13,0-7,demo/repo1,default,0
+2025-10-04,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,192,133,69.27,0,2,2025-09-20,8-30,demo/repo1,default,1
+2025-10-05,2025-09-29,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,93,39,41.94,0,0,2025-10-10,0-7,demo/repo1,default,0
+2025-10-05,2025-09-29,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,175,127,72.57,0,2,2025-09-24,8-30,payments/api,default,1
+2025-10-05,2025-09-29,dev03,dev03@example.com,growth,SDE2,vscode,python,89,60,67.42,0,1,2025-09-22,8-30,mobile/app,default,0
+2025-10-05,2025-09-29,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,190,107,56.32,0,2,2025-10-11,0-7,demo/repo1,default,1
+2025-10-05,2025-09-29,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,185,88,47.57,0,2,2025-09-22,8-30,payments/api,default,0
+2025-10-05,2025-09-29,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,110,48,43.64,0,1,2025-10-12,0-7,demo/repo2,default,0
+2025-10-05,2025-09-29,dev07,dev07@example.com,mobile,SDE1,vscode,python,147,84,57.14,0,2,2025-09-19,8-30,mobile/app,default,0
+2025-10-05,2025-09-29,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,84,45,53.57,0,1,2025-10-08,0-7,mobile/app,default,0
+2025-10-05,2025-09-29,dev09,dev09@example.com,growth,SDE1,vscode,typescript,191,125,65.45,0,2,2025-10-01,0-7,mobile/app,a-custom-model,0
+2025-10-05,2025-09-29,dev10,dev10@example.com,growth,SDE1,vscode,go,172,115,66.86,0,2,2025-09-16,8-30,demo/repo2,default,0
+2025-10-05,2025-09-29,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,132,84,63.64,0,1,2025-10-10,0-7,payments/api,default,1
+2025-10-05,2025-09-29,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,153,108,70.59,0,2,2025-09-17,8-30,demo/repo1,default,1
+2025-10-05,2025-09-29,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,107,54,50.47,0,1,2025-09-16,8-30,mobile/app,default,0
+2025-10-05,2025-09-29,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,120,76,63.33,0,1,2025-10-12,0-7,mobile/app,a-custom-model,0
+2025-10-05,2025-09-29,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,138,78,56.52,0,1,2025-09-13,8-30,payments/api,default,0
+2025-10-05,2025-09-29,dev16,dev16@example.com,mobile,SDE1,vscode,python,157,98,62.42,0,2,2025-10-07,0-7,payments/api,default,1
+2025-10-05,2025-09-29,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,111,78,70.27,0,1,2025-09-13,8-30,mobile/app,default,1
+2025-10-05,2025-09-29,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,144,82,56.94,0,2,2025-10-09,0-7,mobile/app,default,0
+2025-10-05,2025-09-29,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,111,75,67.57,0,1,2025-10-13,0-7,payments/api,default,1
+2025-10-05,2025-09-29,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,156,109,69.87,0,2,2025-09-20,8-30,mobile/app,a-custom-model,0
+2025-10-06,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,122,49,40.16,0,1,2025-10-10,0-7,mobile/app,a-custom-model,0
+2025-10-06,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,231,167,72.29,0,2,2025-09-24,8-30,payments/api,default,1
+2025-10-06,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,117,76,64.96,0,1,2025-09-22,8-30,mobile/app,a-custom-model,1
+2025-10-06,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,250,140,56.0,0,2,2025-10-11,0-7,demo/repo2,default,1
+2025-10-06,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,243,115,47.33,0,2,2025-09-22,8-30,demo/repo1,default,0
+2025-10-06,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,145,60,41.38,0,1,2025-10-12,0-7,payments/api,a-custom-model,0
+2025-10-06,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,193,110,56.99,0,1,2025-09-19,8-30,demo/repo1,default,0
+2025-10-06,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,110,56,50.91,0,1,2025-10-08,0-7,demo/repo2,a-custom-model,0
+2025-10-06,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,252,165,65.48,0,2,2025-10-01,0-7,demo/repo2,default,0
+2025-10-06,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,227,151,66.52,0,2,2025-09-16,8-30,payments/api,default,1
+2025-10-06,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,174,109,62.64,0,1,2025-10-10,0-7,demo/repo1,default,1
+2025-10-06,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,202,142,70.3,0,1,2025-09-17,8-30,payments/api,a-custom-model,0
+2025-10-06,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,141,68,48.23,0,1,2025-09-16,8-30,mobile/app,a-custom-model,0
+2025-10-06,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,157,97,61.78,0,1,2025-10-12,0-7,demo/repo2,a-custom-model,0
+2025-10-06,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,182,100,54.95,0,1,2025-09-13,8-30,demo/repo2,default,1
+2025-10-06,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,207,128,61.84,0,1,2025-10-07,0-7,demo/repo2,default,0
+2025-10-06,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,147,102,69.39,0,1,2025-09-13,8-30,demo/repo1,default,1
+2025-10-06,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,190,107,56.32,0,1,2025-10-09,0-7,payments/api,default,1
+2025-10-06,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,146,96,65.75,0,1,2025-10-13,0-7,demo/repo2,a-custom-model,0
+2025-10-06,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,205,143,69.76,0,1,2025-09-20,8-30,payments/api,default,1
+2025-10-07,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,146,69,47.26,0,1,2025-10-10,0-7,mobile/app,a-custom-model,1
+2025-10-07,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,278,212,76.26,0,3,2025-09-24,8-30,demo/repo2,default,1
+2025-10-07,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,141,103,73.05,0,1,2025-09-22,8-30,demo/repo2,a-custom-model,0
+2025-10-07,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,301,180,59.8,0,3,2025-10-11,0-7,mobile/app,default,1
+2025-10-07,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,293,150,51.19,0,3,2025-09-22,8-30,mobile/app,default,0
+2025-10-07,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,174,83,47.7,0,2,2025-10-12,0-7,mobile/app,default,0
+2025-10-07,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,233,144,61.8,0,2,2025-09-19,8-30,demo/repo1,default,1
+2025-10-07,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,133,79,59.4,0,1,2025-10-08,0-7,payments/api,default,0
+2025-10-07,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,304,210,69.08,0,3,2025-10-01,0-7,demo/repo2,default,2
+2025-10-07,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,273,192,70.33,0,3,2025-09-16,8-30,demo/repo1,default,0
+2025-10-07,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,209,142,67.94,0,2,2025-10-10,0-7,payments/api,default,1
+2025-10-07,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,243,182,74.9,0,2,2025-09-17,8-30,demo/repo1,a-custom-model,0
+2025-10-07,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,170,94,55.29,0,2,2025-09-16,8-30,payments/api,a-custom-model,0
+2025-10-07,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,190,129,67.89,0,2,2025-10-12,0-7,payments/api,a-custom-model,1
+2025-10-07,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,219,131,59.82,0,2,2025-09-13,8-30,demo/repo1,default,1
+2025-10-07,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,249,165,66.27,0,2,2025-10-07,0-7,demo/repo1,default,1
+2025-10-07,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,177,133,75.14,0,2,2025-09-13,8-30,mobile/app,default,1
+2025-10-07,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,229,139,60.7,0,2,2025-10-09,0-7,mobile/app,default,1
+2025-10-07,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,176,127,72.16,0,2,2025-10-13,0-7,mobile/app,default,1
+2025-10-07,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,248,184,74.19,0,2,2025-09-20,8-30,demo/repo2,default,0
+2025-10-08,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,187,77,41.18,0,0,2025-10-10,0-7,demo/repo2,default,1
+2025-10-08,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,353,258,73.09,0,3,2025-09-24,8-30,payments/api,default,2
+2025-10-08,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,179,120,67.04,0,1,2025-09-22,8-30,demo/repo2,a-custom-model,0
+2025-10-08,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,383,217,56.66,0,3,2025-10-11,0-7,mobile/app,a-custom-model,1
+2025-10-08,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,372,179,48.12,0,3,2025-09-22,8-30,demo/repo1,default,0
+2025-10-08,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,221,95,42.99,0,2,2025-10-12,0-7,mobile/app,default,1
+2025-10-08,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,295,171,57.97,0,2,2025-09-19,8-30,demo/repo1,default,1
+2025-10-08,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,168,89,52.98,0,1,2025-10-08,0-7,demo/repo2,default,1
+2025-10-08,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,385,254,65.97,0,3,2025-10-01,0-7,demo/repo2,a-custom-model,1
+2025-10-08,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,347,233,67.15,0,3,2025-09-16,8-30,mobile/app,a-custom-model,1
+2025-10-08,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,266,170,63.91,0,2,2025-10-10,0-7,demo/repo1,a-custom-model,1
+2025-10-08,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,308,219,71.1,0,2,2025-09-17,8-30,demo/repo2,default,1
+2025-10-08,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,216,108,50.0,0,2,2025-09-16,8-30,payments/api,default,0
+2025-10-08,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,241,152,63.07,0,2,2025-10-12,0-7,demo/repo1,default,0
+2025-10-08,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,279,156,55.91,0,2,2025-09-13,8-30,payments/api,a-custom-model,1
+2025-10-08,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,316,198,62.66,0,2,2025-10-07,0-7,demo/repo2,default,1
+2025-10-08,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,224,158,70.54,0,2,2025-09-13,8-30,demo/repo1,default,1
+2025-10-08,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,290,165,56.9,0,2,2025-10-09,0-7,demo/repo2,a-custom-model,1
+2025-10-08,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,223,150,67.26,0,2,2025-10-13,0-7,demo/repo1,default,0
+2025-10-08,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,314,221,70.38,0,2,2025-09-20,8-30,demo/repo2,default,1
+2025-10-09,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,161,66,40.99,0,2,2025-10-10,0-7,demo/repo2,default,1
+2025-10-09,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,303,221,72.94,0,3,2025-09-24,8-30,mobile/app,default,0
+2025-10-09,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,153,101,66.01,0,1,2025-09-22,8-30,demo/repo1,default,1
+2025-10-09,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,328,185,56.4,0,3,2025-10-11,0-7,mobile/app,default,2
+2025-10-09,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,319,152,47.65,0,2,2025-09-22,8-30,demo/repo1,default,0
+2025-10-09,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,190,81,42.63,0,1,2025-10-12,0-7,demo/repo1,default,1
+2025-10-09,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,253,146,57.71,0,2,2025-09-19,8-30,demo/repo1,a-custom-model,0
+2025-10-09,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,145,76,52.41,0,1,2025-10-08,0-7,demo/repo1,a-custom-model,0
+2025-10-09,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,331,218,65.86,0,3,2025-10-01,8-30,demo/repo1,default,1
+2025-10-09,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,298,199,66.78,0,2,2025-09-16,8-30,payments/api,default,2
+2025-10-09,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,228,145,63.6,0,2,2025-10-10,0-7,payments/api,a-custom-model,1
+2025-10-09,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,264,187,70.83,0,2,2025-09-17,8-30,demo/repo1,default,2
+2025-10-09,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,185,91,49.19,0,1,2025-09-16,8-30,payments/api,default,1
+2025-10-09,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,206,129,62.62,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-10-09,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,239,133,55.65,0,2,2025-09-13,8-30,payments/api,default,1
+2025-10-09,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,271,169,62.36,0,2,2025-10-07,0-7,demo/repo2,default,1
+2025-10-09,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,192,134,69.79,0,1,2025-09-13,8-30,demo/repo1,default,0
+2025-10-09,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,249,141,56.63,0,2,2025-10-09,0-7,demo/repo2,default,1
+2025-10-09,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,191,128,67.02,0,1,2025-10-13,0-7,demo/repo1,a-custom-model,0
+2025-10-09,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,270,190,70.37,0,2,2025-09-20,8-30,demo/repo2,a-custom-model,2
+2025-10-10,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,154,63,40.91,0,3,2025-10-10,0-7,demo/repo2,default,0
+2025-10-10,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,291,212,72.85,0,5,2025-09-24,8-30,demo/repo1,a-custom-model,0
+2025-10-10,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,147,97,65.99,0,3,2025-09-22,8-30,mobile/app,default,0
+2025-10-10,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,316,178,56.33,0,4,2025-10-11,0-7,demo/repo1,default,1
+2025-10-10,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,307,146,47.56,0,4,2025-09-22,8-30,demo/repo1,default,0
+2025-10-10,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,182,77,42.31,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-10-10,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,244,140,57.38,0,3,2025-09-19,8-30,payments/api,default,1
+2025-10-10,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,139,73,52.52,0,2,2025-10-08,0-7,payments/api,default,0
+2025-10-10,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,318,209,65.72,0,4,2025-10-01,8-30,demo/repo1,default,1
+2025-10-10,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,286,191,66.78,0,4,2025-09-16,8-30,mobile/app,default,2
+2025-10-10,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,219,139,63.47,0,3,2025-10-10,0-7,mobile/app,default,0
+2025-10-10,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,254,180,70.87,0,3,2025-09-17,8-30,payments/api,default,1
+2025-10-10,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,178,88,49.44,0,2,2025-09-16,8-30,mobile/app,default,1
+2025-10-10,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,198,124,62.63,0,3,2025-10-12,0-7,mobile/app,default,0
+2025-10-10,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,230,128,55.65,0,3,2025-09-13,8-30,payments/api,default,1
+2025-10-10,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,261,162,62.07,0,3,2025-10-07,0-7,payments/api,default,1
+2025-10-10,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,185,129,69.73,0,2,2025-09-13,8-30,payments/api,a-custom-model,1
+2025-10-10,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,239,135,56.49,0,3,2025-10-09,0-7,demo/repo1,a-custom-model,1
+2025-10-10,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,184,123,66.85,0,2,2025-10-13,0-7,mobile/app,default,0
+2025-10-10,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,259,182,70.27,0,3,2025-09-20,8-30,payments/api,default,2
+2025-10-11,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,97,48,49.48,0,1,2025-10-10,0-7,payments/api,default,0
+2025-10-11,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,183,141,77.05,0,2,2025-09-24,8-30,demo/repo1,default,1
+2025-10-11,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,93,70,75.27,0,1,2025-09-22,8-30,payments/api,default,0
+2025-10-11,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,198,120,60.61,0,2,2025-10-11,0-7,mobile/app,default,1
+2025-10-11,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,193,100,51.81,0,2,2025-09-22,8-30,payments/api,default,1
+2025-10-11,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,115,57,49.57,0,1,2025-10-12,0-7,demo/repo2,default,0
+2025-10-11,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,153,96,62.75,0,2,2025-09-19,8-30,mobile/app,default,1
+2025-10-11,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,87,54,62.07,0,1,2025-10-08,0-7,payments/api,default,0
+2025-10-11,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,200,140,70.0,0,2,2025-10-01,8-30,demo/repo2,default,0
+2025-10-11,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,180,128,71.11,0,2,2025-09-16,8-30,mobile/app,default,0
+2025-10-11,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,138,96,69.57,0,1,2025-10-10,0-7,demo/repo2,default,0
+2025-10-11,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,160,122,76.25,0,2,2025-09-17,8-30,payments/api,default,1
+2025-10-11,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,112,63,56.25,0,1,2025-09-16,8-30,demo/repo2,default,0
+2025-10-11,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,125,87,69.6,0,1,2025-10-12,0-7,demo/repo2,default,1
+2025-10-11,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,144,88,61.11,0,1,2025-09-13,8-30,payments/api,a-custom-model,1
+2025-10-11,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,164,110,67.07,0,2,2025-10-07,0-7,payments/api,default,1
+2025-10-11,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,116,89,76.72,0,1,2025-09-13,8-30,demo/repo2,default,1
+2025-10-11,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,150,93,62.0,0,2,2025-10-09,0-7,demo/repo2,default,0
+2025-10-11,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,115,85,73.91,0,1,2025-10-13,0-7,demo/repo1,default,0
+2025-10-11,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,163,122,74.85,0,2,2025-09-20,8-30,demo/repo2,default,0
+2025-10-12,2025-10-06,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,135,55,40.74,0,0,2025-10-10,0-7,demo/repo1,default,0
+2025-10-12,2025-10-06,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,254,184,72.44,0,2,2025-09-24,8-30,demo/repo1,default,1
+2025-10-12,2025-10-06,dev03,dev03@example.com,growth,SDE2,vscode,python,129,85,65.89,0,1,2025-09-22,8-30,mobile/app,default,1
+2025-10-12,2025-10-06,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,276,155,56.16,0,2,2025-10-11,0-7,mobile/app,default,1
+2025-10-12,2025-10-06,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,268,127,47.39,0,2,2025-09-22,8-30,demo/repo2,default,1
+2025-10-12,2025-10-06,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,160,67,41.88,0,1,2025-10-12,0-7,mobile/app,a-custom-model,0
+2025-10-12,2025-10-06,dev07,dev07@example.com,mobile,SDE1,vscode,python,213,122,57.28,0,2,2025-09-19,8-30,payments/api,default,1
+2025-10-12,2025-10-06,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,122,63,51.64,0,1,2025-10-08,0-7,demo/repo2,default,0
+2025-10-12,2025-10-06,dev09,dev09@example.com,growth,SDE1,vscode,typescript,278,182,65.47,0,2,2025-10-01,8-30,payments/api,default,0
+2025-10-12,2025-10-06,dev10,dev10@example.com,growth,SDE1,vscode,go,250,166,66.4,0,2,2025-09-16,8-30,demo/repo1,default,1
+2025-10-12,2025-10-06,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,192,121,63.02,0,1,2025-10-10,0-7,demo/repo1,default,0
+2025-10-12,2025-10-06,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,222,157,70.72,0,2,2025-09-17,8-30,demo/repo1,default,2
+2025-10-12,2025-10-06,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,156,76,48.72,0,1,2025-09-16,8-30,mobile/app,default,1
+2025-10-12,2025-10-06,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,174,108,62.07,0,1,2025-10-12,0-7,demo/repo1,default,0
+2025-10-12,2025-10-06,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,201,111,55.22,0,1,2025-09-13,8-30,payments/api,default,0
+2025-10-12,2025-10-06,dev16,dev16@example.com,mobile,SDE1,vscode,python,228,141,61.84,0,2,2025-10-07,0-7,demo/repo2,default,1
+2025-10-12,2025-10-06,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,162,113,69.75,0,1,2025-09-13,8-30,demo/repo1,default,0
+2025-10-12,2025-10-06,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,209,118,56.46,0,2,2025-10-09,0-7,payments/api,default,0
+2025-10-12,2025-10-06,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,161,107,66.46,0,1,2025-10-13,0-7,mobile/app,default,0
+2025-10-12,2025-10-06,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,227,159,70.04,0,2,2025-09-20,8-30,mobile/app,default,0
+2025-10-13,2025-10-13,dev01,dev01@example.com,core-platform,SDE1,jetbrains,java,116,56,48.28,0,2,2025-10-10,0-7,demo/repo1,default,0
+2025-10-13,2025-10-13,dev02,dev02@example.com,core-platform,Senior SDE,vscode,python,217,167,76.96,0,3,2025-09-24,8-30,demo/repo2,default,1
+2025-10-13,2025-10-13,dev03,dev03@example.com,growth,SDE2,vscode,python,110,82,74.55,0,2,2025-09-22,8-30,mobile/app,default,1
+2025-10-13,2025-10-13,dev04,dev04@example.com,core-platform,Senior SDE,vscode,python,235,141,60.0,0,4,2025-10-11,0-7,payments/api,a-custom-model,1
+2025-10-13,2025-10-13,dev05,dev05@example.com,mobile,Tech Lead,vscode,javascript,228,117,51.32,0,4,2025-09-22,8-30,demo/repo1,default,0
+2025-10-13,2025-10-13,dev06,dev06@example.com,growth,Tech Lead,vscode,javascript,136,66,48.53,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-10-13,2025-10-13,dev07,dev07@example.com,mobile,SDE1,vscode,python,182,113,62.09,0,3,2025-09-19,8-30,payments/api,default,1
+2025-10-13,2025-10-13,dev08,dev08@example.com,growth,Senior SDE,vscode,javascript,104,63,60.58,0,2,2025-10-08,0-7,mobile/app,default,0
+2025-10-13,2025-10-13,dev09,dev09@example.com,growth,SDE1,vscode,typescript,237,164,69.2,0,4,2025-10-01,8-30,demo/repo1,default,1
+2025-10-13,2025-10-13,dev10,dev10@example.com,growth,SDE1,vscode,go,213,151,70.89,0,3,2025-09-16,8-30,mobile/app,default,1
+2025-10-13,2025-10-13,dev11,dev11@example.com,growth,Senior SDE,jetbrains,java,163,112,68.71,0,3,2025-10-10,0-7,mobile/app,default,1
+2025-10-13,2025-10-13,dev12,dev12@example.com,core-platform,Tech Lead,vscode,python,189,143,75.66,0,3,2025-09-17,8-30,demo/repo2,default,1
+2025-10-13,2025-10-13,dev13,dev13@example.com,mobile,Senior SDE,vscode,typescript,133,74,55.64,0,2,2025-09-16,8-30,demo/repo1,a-custom-model,0
+2025-10-13,2025-10-13,dev14,dev14@example.com,core-platform,Tech Lead,neovim,java,148,102,68.92,0,2,2025-10-12,0-7,demo/repo2,default,0
+2025-10-13,2025-10-13,dev15,dev15@example.com,core-platform,Senior SDE,jetbrains,typescript,171,104,60.82,0,3,2025-09-13,8-30,demo/repo1,default,0
+2025-10-13,2025-10-13,dev16,dev16@example.com,mobile,SDE1,vscode,python,194,129,66.49,0,3,2025-10-07,0-7,mobile/app,a-custom-model,0
+2025-10-13,2025-10-13,dev17,dev17@example.com,mobile,Tech Lead,vscode,javascript,138,105,76.09,0,2,2025-09-13,8-30,mobile/app,default,1
+2025-10-13,2025-10-13,dev18,dev18@example.com,growth,Tech Lead,vscode,javascript,178,109,61.24,0,3,2025-10-09,0-7,mobile/app,default,1
+2025-10-13,2025-10-13,dev19,dev19@example.com,core-platform,Senior SDE,neovim,typescript,137,100,72.99,0,2,2025-10-13,0-7,mobile/app,default,1
+2025-10-13,2025-10-13,dev20,dev20@example.com,core-platform,Tech Lead,neovim,typescript,193,144,74.61,0,3,2025-09-20,8-30,payments/api,default,1

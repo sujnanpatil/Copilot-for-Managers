@@ -1,0 +1,25 @@
+user_login,email,team,role,editor_primary,language_primary,suggestions,acceptances,acceptance_rate_pct,last_activity_at,ide_chat_interactions,dotcom_chat_interactions
+dev01,dev01@demo.io,mobile,SDE1,jetbrains,python,20286,16610,81.88,2025-10-14,100,254
+dev02,dev02@demo.io,core-platform,Senior SDE,neovim,java,9347,5267,56.35,2025-08-04,67,122
+dev03,dev03@acme.dev,core-platform,SDE1,neovim,go,13798,6479,46.96,2025-08-04,68,202
+dev04,dev04@demo.io,mobile,SDE2,vscode,java,12876,6058,47.05,2025-07-22,49,141
+dev05,dev05@demo.io,mobile,Senior SDE,vscode,typescript,22014,17075,77.56,2025-10-10,56,263
+dev06,dev06@demo.io,mobile,SDE2,vscode,csharp,20949,14197,67.77,2025-10-10,137,156
+dev07,dev07@demo.io,growth,Tech Lead,neovim,python,24787,18851,76.05,2025-10-07,101,110
+dev08,dev08@example.com,payments,SDE1,neovim,java,10450,7543,72.18,2025-09-20,96,105
+dev09,dev09@demo.io,mobile,SDE1,vscode,typescript,16413,10644,64.85,2025-09-22,44,180
+dev10,dev10@example.com,mobile,SDE1,vscode,java,9432,7717,81.82,2025-10-01,111,109
+dev11,dev11@example.com,mobile,Senior SDE,vscode,java,12794,7461,58.32,2025-07-17,43,185
+dev12,dev12@demo.io,mobile,Tech Lead,vscode,typescript,17899,11734,65.56,2025-10-10,69,259
+dev13,dev13@example.com,mobile,SDE1,vscode,csharp,9374,7131,76.07,2025-09-07,143,142
+dev14,dev14@example.com,growth,Tech Lead,vscode,python,12442,8447,67.89,2025-09-20,100,99
+dev15,dev15@acme.dev,core-platform,SDE1,vscode,java,20472,15982,78.07,2025-10-13,90,284
+dev16,dev16@acme.dev,mobile,SDE2,vscode,java,18604,12391,66.6,2025-10-09,105,168
+dev17,dev17@example.com,growth,SDE2,vscode,go,12826,9153,71.36,2025-10-06,124,69
+dev18,dev18@acme.dev,growth,SDE1,vscode,java,19393,8801,45.38,2025-09-28,116,58
+dev19,dev19@example.com,core-platform,SDE1,vscode,typescript,23313,12316,52.83,2025-10-13,51,73
+dev20,dev20@example.com,growth,SDE2,jetbrains,csharp,9017,4908,54.43,2025-08-12,28,195
+dev21,dev21@acme.dev,growth,SDE1,vscode,go,23248,10904,46.9,2025-10-01,61,234
+dev22,dev22@acme.dev,payments,Tech Lead,neovim,csharp,21331,11294,52.95,2025-09-23,56,147
+dev23,dev23@demo.io,growth,SDE2,vscode,typescript,14959,7084,47.36,2025-07-20,49,62
+dev24,dev24@example.com,core-platform,Senior SDE,neovim,java,11670,6326,54.21,2025-08-25,136,137
